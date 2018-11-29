@@ -1,0 +1,32 @@
+
+.icon-button {
+    -fx-min-width: 50;
+    -fx-max-width: 50;
+    -fx-min-height: 20;
+    -fx-max-height: 20;
+    -fx-background-color: #8e9395;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 15px;
+
+}
+
+#back-button {
+    -fx-background-image: url("../../../assets/icons/back.png");
+
+}
+
+#play-button {
+    -fx-background-image: url("../../../assets/icons/play-button-1.png");
+
+}
+
+#stop-button {
+    -fx-background-image: url("../../../assets/icons/stop-1.png");
+
+}
+
+#skip-button {
+    -fx-background-image: url("../../../assets/icons/next.png");
+
+}
