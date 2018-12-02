@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jsminim">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/MP3Player_FX/src/sources/jsminim.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -8,27 +8,35 @@ import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import presentation.scenes.playerview.PlayerView;
+import structure.Mp3Player;
+import structure.Playlist;
+import structure.PlaylistManager;
 
 public class Main extends Application {
-    //private Mp3Player player;
-    //private PlaylistManager manager;
+    private Playlist defPlaylist;
+    private PlaylistManager manager;
+    private Mp3Player player;
+
+
 
     Stage primaryStage;
     Pane playerView;
 
     @Override
     public void init(){
-        //Playlist defPlaylist = new Playlist();
-        //PlaylistManager manager = new PlaylistManager(defPlaylist);
-         //Mp3Player player = new Mp3Player(manager.getAktPlaylist().getAktSong());
-        //this.player = player;
-       // this.manager = manager;
+        this.defPlaylist = new Playlist();
+        this.manager = new PlaylistManager(defPlaylist);
+        this.player = new Mp3Player(manager.getAktPlaylist().getAktSong());
+
     }
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        this.playerView = new PlayerView();
+
+
+        this.playerView = new PlayerView(defPlaylist, player, manager);
         this.primaryStage = primaryStage;
+
 
         Pane root = new Pane();
         root.setStyle("-fx-background-color: transparent;");

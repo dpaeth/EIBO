@@ -15,9 +15,8 @@ public class PlayerViewController {
 
     public PlayerViewController(){
 
-            this.view = new PlayerView();
-        this.player = player;
-        //this.playercontrol = view.playercontrol;
+        //this.view = new PlayerView(Mp3Player player);
+        //this.player = player;
         initialize();
 
     }

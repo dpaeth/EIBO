@@ -6,11 +6,18 @@ import javafx.geometry.Pos;
 import javafx.scene.control.Button;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
+import structure.Mp3Player;
+import structure.Playlist;
+import structure.PlaylistManager;
 
 public class PlayerControl extends HBox {
+    private Mp3Player player;
+    private PlaylistManager manager;
+    private Playlist defPlayList;
     Button play, stop, skip, back, shuffle, repeat;
 
-    public PlayerControl(){
+    public PlayerControl(Playlist defPlayList, Mp3Player player, PlaylistManager manager){
+
 
         back = new Button();
         back.getStyleClass().addAll("icon-button");
@@ -37,6 +44,8 @@ public class PlayerControl extends HBox {
         repeat.getStyleClass().addAll("icon-button");
         repeat.setId("repeat-button");
         */
+
+
 
 
 
