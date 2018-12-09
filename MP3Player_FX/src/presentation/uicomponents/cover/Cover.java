@@ -1,17 +1,15 @@
 package presentation.uicomponents.cover;
 
 import com.mpatric.mp3agic.ID3v2;
+import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.StackPane;
 import structure.Mp3Player;
 import structure.Playlist;
 import structure.PlaylistManager;
-
-import java.awt.*;
-import java.awt.image.ImageObserver;
-import java.awt.image.ImageProducer;
 import java.io.ByteArrayInputStream;
+import javafx.scene.image.Image;
 
 public class Cover extends StackPane {
     private Playlist defPlaylist;
@@ -34,13 +32,14 @@ public class Cover extends StackPane {
                     img = new Image(new ByteArrayInputStream(cover));
                 }
                 iv1.setImage(img);
-
             }
         } catch (Exception e){
             e.printStackTrace();
         }
 
-        this.setAlignment(Pos.BOTTOM_LEFT);
+
+        this.setPadding(new Insets(5));
+        this.setAlignment(Pos.TOP_LEFT);
         this.getChildren().addAll(iv1);
 
 

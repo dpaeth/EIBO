@@ -4,6 +4,8 @@
       <root url="jar://$PROJECT_DIR$/MP3Player_FX/src/sources/mp3agic.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/MP3Player_FX/src/sources/mp3agic.jar!/" />
+    </SOURCES>
   </library>
 </component>
