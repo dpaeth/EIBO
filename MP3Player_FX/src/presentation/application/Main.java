@@ -59,10 +59,7 @@ public class Main extends Application {
         scene1.setFill(null);
         scene1.setRoot(playlistView);
 
-        scene1.getStylesheets().add(getClass().
-                getResource("application.css").toExternalForm());
-        primaryStage.setScene(scene1);
-        primaryStage.initStyle(StageStyle.DECORATED);
+        primaryStage.setScene(scene1)
 
         primaryStage.show();*/
     }
