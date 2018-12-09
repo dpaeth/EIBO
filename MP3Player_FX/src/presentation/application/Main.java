@@ -34,16 +34,15 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
 
 
-
         this.playlistView = new PlaylistView(defPlaylist,player,manager);
         this.playerView = new PlayerView(defPlaylist, player, manager);
         this.primaryStage = primaryStage;
 
         Pane root = new Pane();
-        //Pane root1 = new Pane();
+        Pane root1 = new Pane();
 
         //switchView("PLAYER");
-        Scene scene = new Scene(root, 800, 600);
+        /*Scene scene = new Scene(root, 800, 600);
         scene.setFill(null);
         scene.setRoot(playerView);
 
@@ -53,15 +52,15 @@ public class Main extends Application {
         primaryStage.initStyle(StageStyle.DECORATED);
 
         primaryStage.setTitle("Player");
-        primaryStage.show();
+        primaryStage.show();*/
 
-        /*Scene scene1 = new Scene(root1,800,600);
+        Scene scene1 = new Scene(root1,800,600);
         scene1.setFill(null);
         scene1.setRoot(playlistView);
 
-        primaryStage.setScene(scene1)
+        primaryStage.setScene(scene1);
 
-        primaryStage.show();*/
+        primaryStage.show();
     }
 
     private void switchView(String name) {

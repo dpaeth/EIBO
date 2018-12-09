@@ -155,9 +155,15 @@ public class Playlist {
         return songs.get(aktSong);
     }
 
+    public HashMap<Integer, Mp3File> getAll() {
+        return this.songs;
+    }
+
+
     public Mp3File getSong(int i){
        return songs.get(i);
     }
+
 
     public boolean isShuffle(){
         return shuffle;

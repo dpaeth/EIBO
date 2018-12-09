@@ -2,6 +2,7 @@ package presentation.scenes.playlistview;
 
 import javafx.geometry.Pos;
 import javafx.scene.control.ListView;
+import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 import presentation.uicomponents.list.List;
 import structure.Mp3Player;
@@ -10,7 +11,7 @@ import structure.PlaylistManager;
 
 public class PlaylistView extends StackPane {
 
-    ListView listView;
+    Pane listView;
 
     private Playlist defPlaylist;
     private Mp3Player player;
