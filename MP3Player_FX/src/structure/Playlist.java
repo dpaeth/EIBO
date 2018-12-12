@@ -8,12 +8,14 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
 public class Playlist {
     private String name;
     private HashMap<Integer, Mp3File> songs;
+    private ArrayList<Track> playlist;
     private int aktSong, size;
     private boolean shuffle, repeat;
 
@@ -21,11 +23,16 @@ public class Playlist {
 
     public Playlist (){
         //Erstellt default-list mit allen vorhandenen Songs in default Directory
+        playlist = new ArrayList<Track>();
         File file = new File("default.m3u");
         File directory = new File("MP3Player_FX/songs/");
         File[] content = directory.listFiles((dir, name) -> name.toLowerCase().endsWith(".mp3"));
         if (content!=null) Arrays.sort(content);
         songs = fileToMp3Hash(content);
+
+        for(int i = 0; i < songs.size(); i++) {
+            playlist.add(new Track(songs.get(i)));
+        }
 
         try {
             createFile(file);
@@ -159,6 +166,9 @@ public class Playlist {
         return this.songs;
     }
 
+    public ArrayList<Track> getPlaylist() {
+        return this.playlist;
+    }
 
     public Mp3File getSong(int i){
        return songs.get(i);

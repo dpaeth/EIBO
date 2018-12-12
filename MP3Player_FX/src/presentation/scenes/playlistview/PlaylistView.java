@@ -1,10 +1,9 @@
 package presentation.scenes.playlistview;
 
 import javafx.geometry.Pos;
-import javafx.scene.control.ListView;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
-import presentation.uicomponents.list.List;
+import presentation.uicomponents.list.ListViewModel;
 import structure.Mp3Player;
 import structure.Playlist;
 import structure.PlaylistManager;
@@ -23,7 +22,8 @@ public class PlaylistView extends StackPane {
         this.player = player;
         this.manager = manager;
 
-        listView = new List(defPlaylist,player,manager);
+        listView = new ListViewModel(defPlaylist,player,manager);
+
 
         this.setAlignment(listView, Pos.BOTTOM_RIGHT);
         this.getChildren().addAll(listView);
