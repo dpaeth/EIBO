@@ -86,6 +86,9 @@ public class Mp3Player {
         }
         return null;
     }
+    public void next(){
+
+    }
 
     public void volume(float value) {
         audioPlayer.setGain(value);

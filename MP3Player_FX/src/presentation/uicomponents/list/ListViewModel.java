@@ -1,6 +1,5 @@
 package presentation.uicomponents.list;
 
-import com.mpatric.mp3agic.Mp3File;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.ListCell;
@@ -11,9 +10,6 @@ import structure.Mp3Player;
 import structure.Playlist;
 import structure.PlaylistManager;
 import structure.Track;
-
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 public class ListViewModel extends HBox {
@@ -22,8 +18,7 @@ public class ListViewModel extends HBox {
     private PlaylistManager manager;
     private Playlist defPlayList;
     ListView<Track> playlist;
-    HashMap songs;
-    List<Track> songz;
+    List<Track> songs;
 
     public ListViewModel(Playlist defPlayList, Mp3Player player, PlaylistManager manager){
         this.defPlayList = defPlayList;
@@ -31,8 +26,8 @@ public class ListViewModel extends HBox {
         this.manager = manager;
 
         ObservableList<Track> items = FXCollections.observableArrayList();
-        songz = defPlayList.getPlaylist();
-        items.setAll(songz);
+        songs = defPlayList.getPlaylist();
+        items.setAll(songs);
 
         playlist = new ListView<Track>();
         playlist.setItems(items);
@@ -45,10 +40,6 @@ public class ListViewModel extends HBox {
                     }
                 }
         );
-
         this.getChildren().addAll(playlist);
-
     }
-
-
 }

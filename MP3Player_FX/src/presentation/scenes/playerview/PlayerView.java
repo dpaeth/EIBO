@@ -1,39 +1,34 @@
 package presentation.scenes.playerview;
 
+import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.layout.*;
 import presentation.uicomponents.cover.Cover;
-import presentation.uicomponents.list.ListViewModel;
 import presentation.uicomponents.playercontrol.PlayerControl;
 import structure.Mp3Player;
 import structure.Playlist;
 import structure.PlaylistManager;
 
 public class PlayerView extends StackPane {
-    Pane playercontrol, cover, listView;
 
-
-    private Playlist defPlaylist;
+    public PlayerControl playerControl;
+    public Pane cover;
     private Mp3Player player;
+    private Playlist defPlaylist;
     private PlaylistManager manager;
 
 
-    public PlayerView(Playlist defPlaylist, Mp3Player player, PlaylistManager manager) {
-        this.defPlaylist = defPlaylist;
+    public PlayerView(Mp3Player player, Playlist defPlaylist, PlaylistManager manager) {
+
         this.player = player;
+        this.defPlaylist = defPlaylist;
         this.manager = manager;
+        playerControl = new PlayerControl();
+        cover = new Cover(defPlaylist,player,manager);
 
-        playercontrol = new PlayerControl(defPlaylist,player,manager);
-        cover = new Cover(defPlaylist, player, manager);
-        listView = new ListViewModel(defPlaylist,player,manager);
-
-        this.setAlignment(listView, Pos.CENTER_RIGHT);
-        this.setAlignment(playercontrol,Pos.CENTER_LEFT);
-        this.setAlignment(cover,Pos.BOTTOM_LEFT);
-        this.getChildren().addAll(playercontrol, cover, listView);
+        this.setPadding(new Insets(10));
+        this.getChildren().addAll(playerControl, cover);
+        this.setAlignment(cover,Pos.CENTER_LEFT);
         this.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
-
-
     }
-
 }

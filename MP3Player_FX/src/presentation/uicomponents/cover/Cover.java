@@ -12,6 +12,7 @@ import java.io.ByteArrayInputStream;
 import javafx.scene.image.Image;
 
 public class Cover extends StackPane {
+
     private Playlist defPlaylist;
     private Mp3Player player;
     private PlaylistManager manager;
@@ -37,14 +38,8 @@ public class Cover extends StackPane {
             e.printStackTrace();
         }
 
-
         this.setPadding(new Insets(5));
-        this.setAlignment(Pos.TOP_LEFT);
         this.getChildren().addAll(iv1);
-
-
-
-
+        this.setAlignment(Pos.CENTER_LEFT);
     }
-
 }
