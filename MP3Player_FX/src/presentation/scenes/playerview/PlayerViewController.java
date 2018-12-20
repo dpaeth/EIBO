@@ -3,6 +3,7 @@ package presentation.scenes.playerview;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Button;
 import javafx.scene.layout.Pane;
+import presentation.application.Main;
 import presentation.uicomponents.bottompanel.BottomPanel;
 import presentation.uicomponents.playercontent.PlayerContent;
 import presentation.uicomponents.playercontrol.PlayerControl;
@@ -19,6 +20,7 @@ public class PlayerViewController {
     private BottomPanel bottomPanel;
     private Mp3Player player;
     private Playlist defPlaylist;
+    private Main application;
 
     public PlayerViewController(Mp3Player player, Playlist defPlaylist,PlaylistManager manager){
         this.player = player;
