@@ -25,7 +25,7 @@ public class Playlist {
         //Erstellt default-list mit allen vorhandenen Songs in default Directory
         playlist = new ArrayList<Track>();
         File file = new File("default.m3u");
-        File directory = new File("songs/");
+        File directory = new File("MP3Player_FX/songs/");
         File[] content = directory.listFiles((dir, name) -> name.toLowerCase().endsWith(".mp3"));
         if (content!=null) Arrays.sort(content);
         songs = fileToMp3Hash(content);

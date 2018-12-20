@@ -11,8 +11,9 @@ import javafx.scene.layout.HBox;
 
 public class TopPanel extends HBox {
 
-    private final ToggleGroup switchview;
     private String toggleString;
+    public Button switchPlayer;
+    public Button switchList;
 
 
     public TopPanel() {
@@ -22,29 +23,14 @@ public class TopPanel extends HBox {
         this.setMaxHeight(60);
         this.setStyle("-fx-background-color: #2E2E30;");
 
-        switchview  = new ToggleGroup();
-        ToggleButton switchPlayer = new ToggleButton("PLAYER");
+        switchPlayer = new Button("PLAYER");
         switchPlayer.setUserData("PLAYER");
-        switchPlayer.setToggleGroup(switchview);
-        switchPlayer.setSelected(true);
-        ToggleButton switchList = new ToggleButton("LIST");
-        switchList.setToggleGroup(switchview);
-        switchList.setUserData("VIEW");
+        switchList = new Button("LIST");
 
 
         this.getChildren().addAll(switchPlayer,switchList);
 
 
-        switchview.selectedToggleProperty().addListener(new ChangeListener<Toggle>() {
-            @Override
-            public void changed(ObservableValue<? extends Toggle> observableValue, Toggle toggle, Toggle t1) {
-                if(t1 == null) {
-                    toggleString = "PLAYER";
-                } else {
-                    toggleString = switchview.getSelectedToggle().getUserData().toString();
-                }
-            }
-        });
 
     }
 

@@ -34,11 +34,10 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
 
-        this.playerViewController = new PlayerViewController(player,defPlaylist,manager);
-        this.playListViewController = new PlayListViewController(defPlaylist,player,manager);
+        this.playerViewController = new PlayerViewController(player,defPlaylist,manager,this);
+        this.playListViewController = new PlayListViewController(defPlaylist,player,manager,this);
         this.topPanel = playListViewController.topPanel;
         this.primaryStage = primaryStage;
-
 
         Pane root = new Pane();
         root.setStyle("-fx-background-color: transparent;");
@@ -58,14 +57,13 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-    private void switchView(String name) {
+    public void switchView(String name) {
         Scene scene = primaryStage.getScene();
-        name = topPanel.getToggleString();
         switch (name) {
             case "PLAYER":
                 scene.setRoot(playerViewController.getView());
                 break;
-            case "VIEW":
+            case "LIST":
                 scene.setRoot(playListViewController.getView());
         }
     }
