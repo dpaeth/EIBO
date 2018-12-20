@@ -25,7 +25,7 @@ public class Playlist {
         //Erstellt default-list mit allen vorhandenen Songs in default Directory
         playlist = new ArrayList<Track>();
         File file = new File("default.m3u");
-        File directory = new File("MP3Player_FX/songs/");
+        File directory = new File("songs/");
         File[] content = directory.listFiles((dir, name) -> name.toLowerCase().endsWith(".mp3"));
         if (content!=null) Arrays.sort(content);
         songs = fileToMp3Hash(content);
@@ -83,7 +83,7 @@ public class Playlist {
         }
     }
 
-    public HashMap<Integer, Mp3File> fileToMp3Hash(File[] files){
+    public HashMap<Integer,Mp3File> fileToMp3Hash(File[] files){
         HashMap<Integer, Mp3File> content = new HashMap<>();
         for (int i=0; i<files.length; i++){
             try {
@@ -171,7 +171,7 @@ public class Playlist {
     }
 
     public Mp3File getSong(int i){
-       return songs.get(i);
+        return songs.get(i);
     }
 
 

@@ -13,6 +13,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 
 public class Mp3Player {
 
@@ -78,17 +79,16 @@ public class Mp3Player {
 
     }
 
-    public Image getCover() throws IOException {
+    public byte[] getCover() throws IOException {
         if (aktSong.hasId3v2Tag()) {
             ID3v2 id3v2tag = aktSong.getId3v2Tag();
             byte[] b = id3v2tag.getAlbumImage();
-            return new ImageIcon(b).getImage();
+
+            return b;
         }
         return null;
     }
-    public void next(){
 
-    }
 
     public void volume(float value) {
         audioPlayer.setGain(value);

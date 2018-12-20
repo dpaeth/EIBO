@@ -23,7 +23,7 @@ public class Player extends Application {
 
 
     public void init(){
-        Backend.list defPlaylist = new Backend.list();
+        Backend.Playlist defPlaylist = new Backend.Playlist();
         Backend.PlaylistManager manager = new Backend.PlaylistManager(defPlaylist);
         Backend.Mp3Player player = new Backend.Mp3Player(manager.getAktPlaylist().getAktSong());
         this.player = player;

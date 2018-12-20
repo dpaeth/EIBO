@@ -9,7 +9,7 @@ public class PlaylistManager {
 
 /*
     public Backend.PlaylistManager (){
-        this.aktuell = new Backend.list();
+        this.aktuell = new Backend.Playlist();
     }
 */
 
@@ -45,7 +45,7 @@ public class PlaylistManager {
     }
 
     public void playlistInfo(){
-        System.out.println("Aktuelle Backend.list: "+aktuell.getName());
+        System.out.println("Aktuelle Backend.Playlist: "+aktuell.getName());
     }
 
     public void songInfo(){

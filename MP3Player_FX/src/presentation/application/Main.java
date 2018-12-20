@@ -7,7 +7,7 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import presentation.scenes.playerview.PlayerViewController;
 import presentation.scenes.playlistview.PlayListViewController;
-import presentation.scenes.playlistview.PlaylistView;
+import presentation.uicomponents.toppanel.TopPanel;
 import structure.Mp3Player;
 import structure.Playlist;
 import structure.PlaylistManager;
@@ -16,53 +16,57 @@ public class Main extends Application {
     private Playlist defPlaylist;
     private PlaylistManager manager;
     private Mp3Player player;
+    private PlayerViewController playerViewController;
+    private PlayListViewController playListViewController;
+    private TopPanel topPanel;
+
 
     Stage primaryStage;
-    Pane playerView, playlistView;
-    PlayerViewController playercontroller;
-    PlayListViewController listController;
-
 
     @Override
-    public void init() {
-
+    public void init(){
         this.defPlaylist = new Playlist();
         this.manager = new PlaylistManager(defPlaylist);
         this.player = new Mp3Player(manager.getAktPlaylist().getAktSong());
+
     }
 
     @Override
     public void start(Stage primaryStage) throws Exception{
 
-        this.playlistView = new PlaylistView(defPlaylist,player,manager);
-        this.playercontroller = new PlayerViewController(defPlaylist,player,manager);
-        this.listController = new PlayListViewController(defPlaylist,player,manager);
+        this.playerViewController = new PlayerViewController(player,defPlaylist,manager);
+        this.playListViewController = new PlayListViewController(defPlaylist,player,manager);
+        this.topPanel = playListViewController.topPanel;
         this.primaryStage = primaryStage;
 
+
         Pane root = new Pane();
-        Pane root1 = new Pane();
+        root.setStyle("-fx-background-color: transparent;");
 
         //switchView("PLAYER");
-        Scene scene = new Scene(root, 800, 600);
-        scene.setFill(null);
-        scene.setRoot(playercontroller.getView());
+        Scene scene = new Scene(root, 1000, 750);
+        scene.setRoot(playerViewController.getView());
 
         scene.getStylesheets().add(getClass().
                 getResource("application.css").toExternalForm());
         primaryStage.setScene(scene);
         primaryStage.initStyle(StageStyle.DECORATED);
+
         primaryStage.setTitle("Player");
+        primaryStage.setMinHeight(750);
+        primaryStage.setMinWidth(1000);
         primaryStage.show();
     }
 
     private void switchView(String name) {
         Scene scene = primaryStage.getScene();
+        name = topPanel.getToggleString();
         switch (name) {
             case "PLAYER":
-                scene.setRoot(playercontroller.getView());
+                scene.setRoot(playerViewController.getView());
                 break;
-            case "LISTE":
-                scene.setRoot(listController.getView());
+            case "VIEW":
+                scene.setRoot(playListViewController.getView());
         }
     }
 

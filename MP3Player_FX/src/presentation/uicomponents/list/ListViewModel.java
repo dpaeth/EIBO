@@ -4,26 +4,21 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
-import javafx.scene.layout.HBox;
+import javafx.scene.layout.StackPane;
 import javafx.util.Callback;
-import structure.Mp3Player;
 import structure.Playlist;
-import structure.PlaylistManager;
 import structure.Track;
+
 import java.util.List;
 
-public class ListViewModel extends HBox {
+public class ListViewModel extends StackPane {
 
-    private Mp3Player player;
-    private PlaylistManager manager;
-    private Playlist defPlayList;
+
     ListView<Track> playlist;
     List<Track> songs;
 
-    public ListViewModel(Playlist defPlayList, Mp3Player player, PlaylistManager manager){
-        this.defPlayList = defPlayList;
-        this.player = player;
-        this.manager = manager;
+
+    public ListViewModel(Playlist defPlayList){
 
         ObservableList<Track> items = FXCollections.observableArrayList();
         songs = defPlayList.getPlaylist();
@@ -40,6 +35,15 @@ public class ListViewModel extends HBox {
                     }
                 }
         );
+
+        //????
+        //playlist.getSelectionModel().selectedItemProperty().addListener();
+
+        this.setMaxWidth(300);
+        this.setMaxHeight(500);
         this.getChildren().addAll(playlist);
+        this.getStylesheets().add(getClass().
+                getResource("style.css").toExternalForm());
+
     }
 }
