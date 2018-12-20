@@ -25,9 +25,9 @@ public class Mp3Player {
         this.aktSong = firstSong;
     }
 
-    /*public void setAktSong(Mp3File song){
+    public void setAktSong(Mp3File song){
         this.aktSong = song;
-    }*/
+    }
 
     public void play(){
         this.audioPlayer = minim.loadMP3File(aktSong.getFilename());

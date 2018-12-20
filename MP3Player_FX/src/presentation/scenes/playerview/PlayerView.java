@@ -22,7 +22,7 @@ public class PlayerView extends BorderPane {
     SidePanel sidePanelLeft;
     SidePanel sidePanelRight;
     PlayerContent playerContent;
-    public BottomPanel bottomPanel;
+    BottomPanel bottomPanel;
     private Playlist defPlaylist;
     private Mp3Player player;
     private PlaylistManager manager;

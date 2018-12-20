@@ -21,7 +21,7 @@ public class PlaylistView extends BorderPane {
     private Mp3Player player;
     private PlaylistManager manager;
     public TopPanel topPanel;
-    private BottomPanel bottomPanel;
+    BottomPanel bottomPanel;
     private SidePanel sidePanelLeft;
     private SidePanel sidePanelRight;
 

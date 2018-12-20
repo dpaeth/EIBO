@@ -28,6 +28,7 @@ public class PlayerViewController {
     private Button switchList;
 
     public PlayerViewController(Mp3Player player, Playlist defPlaylist,PlaylistManager manager,Main application){
+
         isPlaying = false;
         this.player = player;
         this.defPlaylist = defPlaylist;

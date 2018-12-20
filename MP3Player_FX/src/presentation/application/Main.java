@@ -18,25 +18,20 @@ public class Main extends Application {
     private Mp3Player player;
     private PlayerViewController playerViewController;
     private PlayListViewController playListViewController;
-    private TopPanel topPanel;
-
-
     Stage primaryStage;
 
     @Override
     public void init(){
-        this.defPlaylist = new Playlist();
-        this.manager = new PlaylistManager(defPlaylist);
-        this.player = new Mp3Player(manager.getAktPlaylist().getAktSong());
 
+        defPlaylist = new Playlist();
+        manager = new PlaylistManager(defPlaylist);
+        player = new Mp3Player(manager.getAktPlaylist().getAktSong());
+        playerViewController = new PlayerViewController(player,defPlaylist,manager,this);
+        playListViewController = new PlayListViewController(defPlaylist,player,manager,this);
     }
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-
-        this.playerViewController = new PlayerViewController(player,defPlaylist,manager,this);
-        this.playListViewController = new PlayListViewController(defPlaylist,player,manager,this);
-        this.topPanel = playListViewController.topPanel;
         this.primaryStage = primaryStage;
 
         Pane root = new Pane();

@@ -26,16 +26,7 @@ public class TopPanel extends HBox {
         switchPlayer = new Button("PLAYER");
         switchPlayer.setUserData("PLAYER");
         switchList = new Button("LIST");
-
-
         this.getChildren().addAll(switchPlayer,switchList);
-
-
-
-    }
-
-    public String getToggleString() {
-        return toggleString;
     }
 
 }
