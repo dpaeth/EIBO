@@ -20,7 +20,7 @@ public class PlayerViewController {
     private BottomPanel bottomPanel;
     private Mp3Player player;
     private Playlist defPlaylist;
-    private Main application;
+    private Main appli;
 
     public PlayerViewController(Mp3Player player, Playlist defPlaylist,PlaylistManager manager){
         this.player = player;
