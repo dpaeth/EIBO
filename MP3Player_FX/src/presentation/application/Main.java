@@ -13,6 +13,7 @@ import structure.Playlist;
 import structure.PlaylistManager;
 
 public class Main extends Application {
+
     private Playlist defPlaylist;
     private PlaylistManager manager;
     private Mp3Player player;
@@ -25,7 +26,7 @@ public class Main extends Application {
 
         defPlaylist = new Playlist();
         manager = new PlaylistManager(defPlaylist);
-        player = new Mp3Player(manager.getAktPlaylist().getAktSong());
+        player = new Mp3Player(manager.getAktPlaylist());
         playerViewController = new PlayerViewController(player,defPlaylist,manager,this);
         playListViewController = new PlayListViewController(defPlaylist,player,manager,this);
     }
@@ -62,6 +63,7 @@ public class Main extends Application {
                 scene.setRoot(playListViewController.getView());
         }
     }
+
 
     public static void main(String[] args) {
         launch(args);

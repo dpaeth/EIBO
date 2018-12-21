@@ -15,14 +15,17 @@ import java.util.HashMap;
 public class Playlist {
     private String name;
     private HashMap<Integer, Mp3File> songs;
+
     private ArrayList<Track> playlist;
-    private int aktSong, size;
+    private int aktSongIndex, size;
+    private Track song;
     private boolean shuffle, repeat;
 
     //KONSTRUKTOREN
 
     public Playlist (){
         //Erstellt default-list mit allen vorhandenen Songs in default Directory
+
         playlist = new ArrayList<Track>();
         File file = new File("default.m3u");
         File directory = new File("MP3Player_FX/songs/");
@@ -33,18 +36,18 @@ public class Playlist {
         for(int i = 0; i < songs.size(); i++) {
             playlist.add(new Track(songs.get(i)));
         }
-
         try {
             createFile(file);
             writePlaylist(file);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        this.name = file.getName();
-        this.aktSong = 0;
-        this.size = songs.size();
-        this.shuffle = false;
-        this.repeat = false;
+        name = file.getName();
+        aktSongIndex = 0;
+        song = playlist.get(aktSongIndex);
+        size = playlist.size();
+        shuffle = false;
+        repeat = false;
 
     }
 
@@ -100,38 +103,31 @@ public class Playlist {
     }
 
     public void skipToNextSong(){
-        if (repeat)  {
-            return;
-        }
-        else if (shuffle) {
-            aktSong = (int)(Math.random()* songs.size());
-
+        if (shuffle) {
+            aktSongIndex = (int)(Math.random()* songs.size());
             return;
         }
         else {
-            if (aktSong<(size-1)){
-                aktSong++;
-            } else if (aktSong == (size-1)){
-                aktSong = 0;
+            if (aktSongIndex <(size-1)){
+                aktSongIndex++;
+            } else if (aktSongIndex == (size-1)){
+                aktSongIndex = 0;
             }
         }
 
     }
 
     public void skipToPrevSong(){
-        if (repeat)  {
-            return;
-        }
-        else if (shuffle) {
-            aktSong = (int)(Math.random()* songs.size());
+        if (shuffle) {
+            aktSongIndex = (int)(Math.random()* songs.size());
             return;
         }
         else {
-            if (aktSong == (0)) {
-                aktSong = (size - 1);
+            if (aktSongIndex == (0)) {
+                aktSongIndex = (size - 1);
             }
-            else if (aktSong<size){
-                aktSong--;
+            else if (aktSongIndex <size){
+                aktSongIndex--;
             }
         }
     }
@@ -148,8 +144,8 @@ public class Playlist {
         else repeat = false;
     }
 
-    public void setAktSong(int i){
-        this.aktSong = i;
+    public void setAktSongIndex(int i){
+        this.aktSongIndex = i;
     }
 
     //GETTER
@@ -158,9 +154,13 @@ public class Playlist {
         return this.name;
     }
 
-    public Mp3File getAktSong(){
-        return songs.get(aktSong);
+    public Track getSong(int aktSongIndex){
+        return playlist.get(aktSongIndex);
     }
+    public int getAktSongIndex() {
+        return this.aktSongIndex;
+    }
+    public Track getAktSong(){return this.song;}
 
     public HashMap<Integer, Mp3File> getAll() {
         return this.songs;
@@ -170,10 +170,9 @@ public class Playlist {
         return this.playlist;
     }
 
-    public Mp3File getSong(int i){
-        return songs.get(i);
+    public void setSong(int aktSongIndex) {
+        this.song = playlist.get(aktSongIndex);
     }
-
 
     public boolean isShuffle(){
         return shuffle;

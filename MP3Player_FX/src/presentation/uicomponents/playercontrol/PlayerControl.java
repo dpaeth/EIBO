@@ -38,7 +38,7 @@ public class PlayerControl extends HBox {
         skip.getStyleClass().addAll("icon-button");
         skip.setId("skip-button");
 
-        /*
+
         shuffle = new Button("shuffle");
         shuffle.getStyleClass().addAll("icon-button");
         shuffle.setId("shuffle-button");
@@ -46,14 +46,14 @@ public class PlayerControl extends HBox {
         repeat = new Button("repeat");
         repeat.getStyleClass().addAll("icon-button");
         repeat.setId("repeat-button");
-        */
+
 
 
 
         this.setSpacing(10);
         this.setPadding(new Insets(10));
         this.setAlignment(Pos.CENTER);
-        this.getChildren().addAll(back, play, stop, skip/*, shuffle, repeat*/);
+        this.getChildren().addAll(back, shuffle, repeat, play, stop, skip);
         this.getStylesheets().add(getClass().
                 getResource("style.css").toExternalForm());
     }

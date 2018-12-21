@@ -93,7 +93,7 @@ public class KeyboardController {
             }
         } else if (line.length == 2)
             switch (command){
-                case play: player.play("songs/" + line[1] + ".mp3"); break;
+                //case play: player.play("songs/" + line[1] + ".mp3"); break;
                 case volume: player.volume(Float.parseFloat(line[1])); break;
                 //case set:
             }

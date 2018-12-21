@@ -1,5 +1,6 @@
 package presentation.scenes.playerview;
 
+import javafx.beans.property.SimpleObjectProperty;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
@@ -38,6 +39,7 @@ public class PlayerView extends BorderPane {
         this.sidePanelLeft = new SidePanel();
         this.sidePanelRight = new SidePanel();
         this.playerContent = new PlayerContent(defPlaylist, player, manager);
+
 
         this.setTop(topPanel);
         this.setBottom(bottomPanel);

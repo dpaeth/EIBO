@@ -49,7 +49,7 @@ public class PlaylistManager {
     }
 
     public void songInfo(){
-        System.out.println("Aktueller Song: "+aktuell.getAktSong().getFilename());
+        System.out.println("Aktueller Song: "+aktuell.getAktSong().getSong().getFilename());
     }
 
 
