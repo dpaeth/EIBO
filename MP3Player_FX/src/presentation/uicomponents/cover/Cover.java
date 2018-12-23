@@ -1,67 +1,67 @@
 package presentation.uicomponents.cover;
 
-import com.mpatric.mp3agic.ID3v2;
-import com.mpatric.mp3agic.Mp3File;
+import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 import javafx.embed.swing.SwingFXUtils;
-import javafx.geometry.Pos;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.StackPane;
-import structure.Mp3Player;
-import structure.Playlist;
-import structure.PlaylistManager;
 import structure.Track;
 
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.awt.image.DataBufferByte;
+import java.awt.image.WritableRaster;
 import java.io.ByteArrayInputStream;
+import java.io.File;
 import java.io.IOException;
 
+/**
+ * @author Dorian Paeth
+ * @author Julian Gräber
+ * UI-Komponente - Cover
+ */
+
 public class Cover extends StackPane {
-    private Playlist defPlaylist;
-    private Mp3Player player;
-    private PlaylistManager manager;
-    private Image img;
-    ImageView iv1;
-    public SimpleObjectProperty<Track> actSong;
-    public Track aktTrack;
+    private Track aktTrack;
+    private ObjectProperty<Image> image = new SimpleObjectProperty<>();
+    private Image defImage;
+    ImageView iv1 = new ImageView();
 
-    public Cover(Playlist defPlaylist, Mp3Player player, PlaylistManager manager) {
-        this.defPlaylist = defPlaylist;
-        this.player = player;
-        this.manager = manager;
-        iv1 = new ImageView();
-        actSong = new SimpleObjectProperty<Track>();
-        aktTrack = defPlaylist.getAktSong();
+    //Konstruktor des Covers
+    public Cover(Track aktTrack) {
+        this.aktTrack = aktTrack;
+        this.image.setValue(aktTrack.getCover());
 
-        setCover(aktTrack);
+        try {
+            BufferedImage def = ImageIO.read(new File("MP3Player_FX/src/assets/images/nocover.jpg"));
+            this.defImage = SwingFXUtils.toFXImage(def, null);
+        } catch (Exception e){
+            e.printStackTrace();
+        }
 
+        if (image.get() == null) {
+            image.setValue(defImage);
+            iv1.setImage(image.getValue());
+        } else {
+            iv1.setImage(image.getValue());
+        }
 
         iv1.setFitHeight(350);
         iv1.setFitWidth(350);
 
-        this.setAlignment(Pos.CENTER);
         this.getChildren().addAll(iv1);
-
     }
 
-    public void setCover(Track aktTrack) {
-        try {
-            if (aktTrack.getSong().hasId3v2Tag()){
-                ID3v2 id3v2Tag = aktTrack.getSong().getId3v2Tag();
-                byte[] cover = id3v2Tag.getAlbumImage();
-
-                if (cover!=null) {
-                    img = new Image(new ByteArrayInputStream(cover));
-                }
-                iv1.setImage(img);
-            }
-        } catch (Exception e){
-            e.printStackTrace();
-        }
+    //Cover wird gesetzt
+    public void setImage(Image img){
+        image.setValue(img);
+        iv1.setImage(image.getValue());
     }
 
-
-
+    //falls kein Cover vorhanden, StandardCover setzen
+    public void setDefImage(){
+        image.setValue(defImage);
+        iv1.setImage(image.getValue());
+    }
 }

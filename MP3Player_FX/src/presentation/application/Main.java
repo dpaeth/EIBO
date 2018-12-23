@@ -6,11 +6,19 @@ import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import presentation.scenes.playerview.PlayerViewController;
-import presentation.scenes.playlistview.PlayListViewController;
-import presentation.uicomponents.toppanel.TopPanel;
+import presentation.scenes.playlistview.PlaylistViewController;
 import structure.Mp3Player;
 import structure.Playlist;
 import structure.PlaylistManager;
+
+/**
+ ** @author Dorian Paeth
+ ** @author Julian Gräber
+ * Main-Klasse der Anwendung.
+ * Playlist, der PlaylistManager und der Player werden erstellt und initialisiert.
+ * Controller und Stage werden erstellt und initialisiert.
+ * SwitchView regelt die Darstellung der Ansichten.
+ */
 
 public class Main extends Application {
 
@@ -18,21 +26,22 @@ public class Main extends Application {
     private PlaylistManager manager;
     private Mp3Player player;
     private PlayerViewController playerViewController;
-    private PlayListViewController playListViewController;
-    Stage primaryStage;
+    private PlaylistViewController playlistViewController;
+    private Stage primaryStage;
 
     @Override
     public void init(){
-
         defPlaylist = new Playlist();
         manager = new PlaylistManager(defPlaylist);
-        player = new Mp3Player(manager.getAktPlaylist());
-        playerViewController = new PlayerViewController(player,defPlaylist,manager,this);
-        playListViewController = new PlayListViewController(defPlaylist,player,manager,this);
+        player = new Mp3Player(defPlaylist);
+        manager.addPlaylist(new Playlist("eigenePlaylist", "MP3Player_FX/newsongs"));
+
+        playerViewController = new PlayerViewController(player, this);
+        playlistViewController = new PlaylistViewController(player, manager,this);
     }
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
 
         Pane root = new Pane();
@@ -60,10 +69,9 @@ public class Main extends Application {
                 scene.setRoot(playerViewController.getView());
                 break;
             case "LIST":
-                scene.setRoot(playListViewController.getView());
+                scene.setRoot(playlistViewController.getView());
         }
     }
-
 
     public static void main(String[] args) {
         launch(args);

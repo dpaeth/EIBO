@@ -5,47 +5,67 @@ import javafx.geometry.Pos;
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import structure.Mp3Player;
-import structure.Playlist;
-import structure.PlaylistManager;
 import structure.Track;
+
+/**
+ * @author Dorian Paeth
+ * @author Julian Gräber
+ * UI-Komponente - Songinfos
+ * Label der Informationenanzeige wird erstellt
+ */
 
 public class SongInfo extends VBox {
 
-    private Playlist defPlaylist;
     private Mp3Player player;
-    private PlaylistManager manager;
-    private Label songname;
-    private Label artistname;
-    private Label albumname;
-    public Track aktTrack;
+    private Track track;
+    private Label title, artist, album, year, key, length, bpm;
 
-    public SongInfo (Playlist defPlaylist, Mp3Player player, PlaylistManager manager){
-        this.defPlaylist = defPlaylist;
+    //Konstruktor der InfoAnzeige
+    public SongInfo (Mp3Player player){
         this.player = player;
-        this.manager = manager;
-        this.aktTrack = defPlaylist.getAktSong();
+        this.track = player.getAktTrack();
 
-        songname = new Label();
-        songname.setId("song");
+        title = new Label();
+        title.setId("title");
 
-        artistname = new Label();
-        artistname.setId("artist");
+        artist = new Label();
+        artist.setId("artist");
 
-        albumname = new Label();
-        albumname.setId("playlist");
-        setInfo(aktTrack);
+        album = new Label();
+        album.setId("detail");
 
+        year = new Label();
+        year.setId("detail");
+
+        key = new Label();
+        key.setId("detail");
+
+        length = new Label();
+        length.setId("detail");
+
+        bpm = new Label();
+        bpm.setId("detail");
+
+        setLabels(player);
 
         this.setAlignment(Pos.BOTTOM_CENTER);
-        this.setPadding(new Insets(20));
-        this.getChildren().addAll(songname, artistname, albumname);
-
-
-
+        this.setPadding(new Insets(20, 0, 30, 0));
+        album.setPadding(new Insets(10,0,0,0));
+        this.getChildren().addAll(title, artist, album, year, key, length);
+        this.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
     }
-    public void setInfo(Track aktTrack) {
-        songname.setText(aktTrack.getName());
-        artistname.setText(aktTrack.getInterpret());
-        albumname.setText(aktTrack.getAlbum());
+
+    //Label werden mit Informationen des aktuellen Tracks gefüllt
+    public void setLabels(Mp3Player player){
+        this.player = player;
+        this.track = player.getAktTrack();
+
+        title.setText(track.getTitle());
+        artist.setText(track.getArtist());
+        album.setText("Album: "+player.getAktTrack().getAlbum());
+        year.setText("Jahr: "+track.getYear());
+        key.setText("Key: "+track.getKey());
+        length.setText("Länge: "+(player.getAktSongLength())/1000+" Sekunden");
+        bpm.setText("BPM: "+track.getBpm());
     }
 }

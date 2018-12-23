@@ -1,4 +1,4 @@
 package presentation;
 
-public enum Views {
+enum Views {
 }

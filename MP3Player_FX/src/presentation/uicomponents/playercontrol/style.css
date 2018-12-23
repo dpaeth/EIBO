@@ -6,37 +6,70 @@
     -fx-max-height: 20;
     -fx-border-radius: 0 0 0 0;
     -fx-background-radius: 0 0 0 0;
-    -fx-background-color: rgb(255, 255, 255);
+    -fx-background-color: #2E2E30;
     -fx-background-position: center;
     -fx-background-repeat: no-repeat;
 }
 
+.slider{
+    -fx-background-color: transparent;
+}
+
+.slider .thumb {
+    -fx-background-color: #717171;
+}
+
+.slider .track {
+    -fx-background-color: #2E2E30;
+}
+
+.slider .thumb:hover {
+    -fx-background-color: #717171;
+}
+
+.label {
+    -fx-text-fill: #BBBBBB;
+    -fx-min-width: 50;
+    -fx-max-width: 50;
+}
+
+
+#back {
+    -fx-background-image: url("../../../assets/icons/skip.png");
+    -fx-background-size: 15px;
+
+}
+
+#play {
+    -fx-background-image: url("../../../assets/icons/play.png");
+    -fx-background-size: 15px;
+
+}
+
+#stop {
+    -fx-background-image: url("../../../assets/icons/stop.png");
+    -fx-background-size: 15px;
+
+}
+
+#skip {
+    -fx-background-image: url("../../../assets/icons/end.png");
+    -fx-background-size: 15px;
+
+}
+
+#shuffle {
+    -fx-background-image: url("../../../assets/icons/shuffle.png");
+    -fx-background-size: 15px;
+
+}
+
+#repeat {
+    -fx-background-image: url("../../../assets/icons/repeat.png");
+    -fx-background-size: 15px;
+
+}
 .button:hover {
-    -fx-background-color: #FFFFFF;
-
-}
-
-#back-button {
-    -fx-background-image: url("../../../assets/icons/back.png");
-    -fx-background-size: 12px;
-
-}
-
-#play-button {
-    -fx-background-image: url("../../../assets/icons/play-button-1.png");
-    -fx-background-size: 14px;
-
-}
-
-#stop-button {
-    -fx-background-image: url("../../../assets/icons/stop-1.png");
-    -fx-background-size: 14px;
-
-}
-
-#skip-button {
-    -fx-background-image: url("../../../assets/icons/next.png");
-    -fx-background-size: 12px;
-
+    -fx-background-color: #717171;
 
 }

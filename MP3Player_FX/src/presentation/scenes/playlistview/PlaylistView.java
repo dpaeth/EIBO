@@ -1,47 +1,64 @@
 package presentation.scenes.playlistview;
 
-import javafx.geometry.Pos;
-import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.Pane;
-import javafx.scene.layout.StackPane;
+import javafx.scene.layout.*;
 import presentation.uicomponents.bottompanel.BottomPanel;
-import presentation.uicomponents.list.ListViewModel;
-import presentation.uicomponents.playercontrol.PlayerControl;
+import presentation.uicomponents.playlistcontent.PlaylistContent;
 import presentation.uicomponents.sidepanel.SidePanel;
 import presentation.uicomponents.toppanel.TopPanel;
 import structure.Mp3Player;
-import structure.Playlist;
 import structure.PlaylistManager;
 
-public class PlaylistView extends BorderPane {
+/**
+ * @author Dorian Paeth
+ * @author Julian Gräber
+ * PlaylistView wird definiert.
+ * Verschiedene Panel werden in der PlaylistView erstellt und angeordnet
+ */
 
-    public PlayerControl playerControl;
-    public Pane listView;
-    private Playlist defPlaylist;
-    private Mp3Player player;
-    private PlaylistManager manager;
-    public TopPanel topPanel;
-    BottomPanel bottomPanel;
+class PlaylistView extends BorderPane {
+
+    private TopPanel topPanel;
     private SidePanel sidePanelLeft;
     private SidePanel sidePanelRight;
+    private PlaylistContent playlistContent;
+    private BottomPanel bottomPanel;
+    private Mp3Player player;
+    private PlaylistManager manager;
 
-    public PlaylistView(Playlist defPlaylist, Mp3Player player, PlaylistManager manager) {
-
-        this.defPlaylist = defPlaylist;
+    //Konstruktor PlaylistView
+    PlaylistView(Mp3Player player, PlaylistManager manager) {
         this.player = player;
         this.manager = manager;
+
         this.topPanel = new TopPanel();
-        this.bottomPanel = new BottomPanel(defPlaylist, player, manager);
+        this.bottomPanel = new BottomPanel(player);
         this.sidePanelLeft = new SidePanel();
         this.sidePanelRight = new SidePanel();
-
-        listView = new ListViewModel(defPlaylist);
-        playerControl = new PlayerControl(defPlaylist,player,manager);
+        this.playlistContent = new PlaylistContent(player, manager  );
 
         this.setTop(topPanel);
         this.setBottom(bottomPanel);
         this.setLeft(sidePanelLeft);
         this.setRight(sidePanelRight);
-        this.setCenter(listView);
+        this.setCenter(playlistContent);
+    }
+
+    //GETTER
+    TopPanel getTopPanel(){
+        return this.topPanel;
+    }
+
+    BottomPanel getBottomPanel(){
+        return this.bottomPanel;
+    }
+
+    PlaylistContent getPlaylistContent() {
+        return this.playlistContent;
+    }
+
+    //SETTER
+    void setPlaylistContent(PlaylistContent content){
+        this.playlistContent = content;
+        this.setCenter(playlistContent);
     }
 }

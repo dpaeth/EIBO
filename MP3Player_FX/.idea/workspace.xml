@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
-    <ignored path="JavaFxApplication.iws" />
-    <ignored path=".idea/workspace.xml" />
+    <list default="true" id="9e1482d7-04e6-4e73-8ac2-6d848c02e251" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,203 +9,54 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
-    <ui_properties converted="true" />
-    <breakpoint_rules converted="true" />
-  </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1664261099">
+    <session id="-1268686086">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.9" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="2225" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="2225" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="10" />
-          <entry key="css" value="1" />
-          <entry key="java" value="31" />
+          <entry key="class" value="7" />
+          <entry key="css" value="14" />
+          <entry key="java" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="10" />
-          <entry key="CSS" value="1" />
-          <entry key="JAVA" value="31" />
+          <entry key="CLASS" value="7" />
+          <entry key="CSS" value="14" />
+          <entry key="JAVA" value="67" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="59" />
+          <entry key="java" value="3638" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="59" />
+          <entry key="JAVA" value="3638" />
         </counts>
       </usages-collector>
     </session>
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="JavaFxApplication" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/presentation/application/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structure/Track.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structure/Mp3Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/src/sources/eibo_simpleminim.jar!/de/hsrm/mi/eibo/simpleplayer/SimpleMinim.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#407#408#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/src/sources/mp3agic.jar!/com/mpatric/mp3agic/FileWrapper.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="e#1198#1199#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structure/Playlist.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="106" column="48" selection-start-line="106" selection-start-column="43" selection-end-line="106" selection-end-column="48" />
-              <folding>
-                <element signature="e#4041#4042#0" expanded="true" />
-                <element signature="e#4082#4083#0" expanded="true" />
-                <element signature="e#4209#4210#0" expanded="true" />
-                <element signature="e#4245#4246#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structure/PlaylistManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="method#settingsInfo#0;class#PlaylistManager#0" />
-                <element signature="e#1218#1219#0" expanded="true" />
-                <element signature="e#1307#1308#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/cover/Cover.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/playercontent/PlayerContent.java">
+        <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/application/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="147">
+              <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/presentation/scenes/playerview/PlayerViewController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-              <folding>
-                <element signature="e#1134#1135#0" expanded="true" />
-                <element signature="e#1161#1162#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -215,252 +64,78 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindManager">
-    <FindUsagesManager>
-      <setting name="OPEN_NEW_TAB" value="false" />
-    </FindUsagesManager>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/structure/Commands.java" />
-        <option value="$PROJECT_DIR$/src/presentation/Player.java" />
-        <option value="$PROJECT_DIR$/src/presentation/Mp3PlayerView.java" />
-        <option value="$PROJECT_DIR$/src/presentation/ControlView.java" />
-        <option value="$PROJECT_DIR$/src/presentation/Main.java" />
-        <option value="$PROJECT_DIR$/src/presentation/PlayerviewController.java" />
-        <option value="$PROJECT_DIR$/src/presentation/PlayerView.java" />
-        <option value="$PROJECT_DIR$/src/presentation/sample.fxml" />
-        <option value="$PROJECT_DIR$/src/presentation/PlayerViewController.java" />
-        <option value="$PROJECT_DIR$/src/presentation/uicomponents/playercontrols/ControlView.java" />
-        <option value="$PROJECT_DIR$/src/presentation/uicomponents/ControlView.java" />
-        <option value="$PROJECT_DIR$/src/presentation/uicomponents/PlayerControl.java" />
-        <option value="$PROJECT_DIR$/src/presentation/uicomponents/playercontrols/PlayerControl.java" />
-        <option value="$PROJECT_DIR$/src/presentation/application/PlayerView.fxml" />
-        <option value="$PROJECT_DIR$/src/presentation/application/application.fxml" />
-        <option value="$PROJECT_DIR$/src/presentation/scenes/playerview/application.fxml" />
-        <option value="$PROJECT_DIR$/src/presentation/scenes/playerview/PlayerView.fxml" />
-        <option value="$PROJECT_DIR$/src/presentation/application/application.css" />
-        <option value="$PROJECT_DIR$/src/presentation/scenes/playerview/style.css" />
-        <option value="$PROJECT_DIR$/src/presentation/uicomponents/toppanel/style.css" />
-        <option value="$PROJECT_DIR$/src/presentation/uicomponents/sidepanel/SidePanel.java" />
-        <option value="$PROJECT_DIR$/src/presentation/uicomponents/playercontrol/style.css" />
-        <option value="$PROJECT_DIR$/src/presentation/uicomponents/playercontent/style.css" />
-        <option value="$PROJECT_DIR$/src/presentation/uicomponents/playercontrol/PlayerControl.java" />
-        <option value="$PROJECT_DIR$/src/presentation/uicomponents/bottompanel/BottomPanel.java" />
-        <option value="$PROJECT_DIR$/src/structure/Track.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/filelist/TrackListCell.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/list/ListViewModel.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/filelist/style.css" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/list/style.css" />
         <option value="$PROJECT_DIR$/src/presentation/scenes/playerview/PlayerView.java" />
-        <option value="$PROJECT_DIR$/src/presentation/scenes/playlistview/PlaylistView.java" />
-        <option value="$PROJECT_DIR$/src/structure/Mp3Player.java" />
-        <option value="$PROJECT_DIR$/src/presentation/scenes/playlistview/PlayListViewController.java" />
-        <option value="$PROJECT_DIR$/src/presentation/uicomponents/toppanel/TopPanel.java" />
-        <option value="$PROJECT_DIR$/src/presentation/application/Main.java" />
         <option value="$PROJECT_DIR$/src/presentation/scenes/playerview/PlayerViewController.java" />
+        <option value="$PROJECT_DIR$/src/presentation/scenes/playlistview/PlaylistViewController.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/bottompanel/BottomPanel.java" />
         <option value="$PROJECT_DIR$/src/presentation/uicomponents/cover/Cover.java" />
-        <option value="$PROJECT_DIR$/src/structure/Playlist.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/list/TrackListCell.java" />
         <option value="$PROJECT_DIR$/src/presentation/uicomponents/playercontent/PlayerContent.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/playercontrol/PlayerControl.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/sidepanel/SidePanel.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/songinfo/SongInfo.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/toppanel/TopPanel.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/viewcontrol/ViewControl.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/timecontrol/TimeControl.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/playlistcontent/PlaylistContent.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/filelist/FileList.java" />
+        <option value="$PROJECT_DIR$/src/presentation/scenes/playlistview/PlaylistView.java" />
+        <option value="$PROJECT_DIR$/src/presentation/application/Main.java" />
+        <option value="$PROJECT_DIR$/src/structure/Playlist.java" />
+        <option value="$PROJECT_DIR$/src/structure/PlaylistManager.java" />
+        <option value="$PROJECT_DIR$/src/structure/Track.java" />
+        <option value="$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/application/Main.java" />
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="236" />
-    <option name="y" value="10" />
-    <option name="width" value="1595" />
-    <option name="height" value="1043" />
-  </component>
-  <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="x" value="662" />
+    <option name="y" value="200" />
+    <option name="width" value="1258" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Player_FX" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Player_FX" type="462c0819:PsiDirectoryNode" />
-              <item name="songs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Player_FX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Player_FX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Player_FX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Player_FX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Player_FX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="scenes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Player_FX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="scenes" type="462c0819:PsiDirectoryNode" />
-              <item name="playerview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Player_FX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="scenes" type="462c0819:PsiDirectoryNode" />
-              <item name="playlistview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Player_FX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Player_FX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
-              <item name="bottompanel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Player_FX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
-              <item name="cover" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Player_FX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Player_FX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
-              <item name="playercontent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Player_FX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
-              <item name="playercontrol" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Player_FX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
-              <item name="sidepanel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Player_FX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
-              <item name="toppanel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MP3Player_FX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MP3Player_FX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="EIBO-dorian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EIBO-dorian" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="OverrideImplement.combined" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545236926188" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/EIBO" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545560373788" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EIBO" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/presentation/scenes/playerview" />
-      <recent name="$PROJECT_DIR$/src/presentation/application" />
-      <recent name="$PROJECT_DIR$/src/presentation/uicomponents/playercontrol" />
-      <recent name="$PROJECT_DIR$/src/assets/icons" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="structure" />
-      <recent name="presentation.scenes.playlistview" />
+      <recent name="presentation.uicomponents.filelist" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/presentation/uicomponents" />
-      <recent name="$PROJECT_DIR$/src/structure" />
-      <recent name="$PROJECT_DIR$/src/presentation" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/sources" />
+      <recent name="$PROJECT_DIR$/src/presentation/uicomponents/list" />
+      <recent name="$PROJECT_DIR$/out/production/EIBO-dorian/assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -476,71 +151,22 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
-      <Host>localhost</Host>
-      <Port>5050</Port>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application">
+    <configuration name="Unnamed" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="presentation.application.Main" />
-      <module name="MP3Player_FX" />
+      <module name="EIBO-dorian" />
       <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Dokumente/javafx-sdk-11.0.1/lib --add-modules=javafx.controls" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="presentation.application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="presentation.application.Main" />
+      <module name="EIBO-dorian" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Dokumente/javafx-sdk-11.0.1/lib --add-modules=javafx.controls" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -551,453 +177,293 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
-      <created>1359379246138</created>
+      <changelist id="9e1482d7-04e6-4e73-8ac2-6d848c02e251" name="Default Changelist" comment="" />
+      <created>1545424970757</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1359379246138</updated>
-      <workItem from="1359379250712" duration="1302000" />
-      <workItem from="1542970679091" duration="1107000" />
-      <workItem from="1542972064574" duration="2311000" />
-      <workItem from="1542988686646" duration="1127000" />
-      <workItem from="1543047512345" duration="9274000" />
-      <workItem from="1543139548807" duration="5893000" />
-      <workItem from="1543238814522" duration="2164000" />
-      <workItem from="1543242123774" duration="792000" />
-      <workItem from="1543488258443" duration="2646000" />
-      <workItem from="1543491543180" duration="2277000" />
-      <workItem from="1543495850058" duration="92000" />
-      <workItem from="1543507480451" duration="613000" />
-      <workItem from="1543575234004" duration="2281000" />
-      <workItem from="1543578642930" duration="1277000" />
-      <workItem from="1544180018793" duration="208000" />
-      <workItem from="1544180908975" duration="99000" />
-      <workItem from="1544697839926" duration="173000" />
-      <workItem from="1545052199709" duration="1036000" />
-      <workItem from="1545073464609" duration="185000" />
-      <workItem from="1545129190767" duration="5180000" />
-      <workItem from="1545146789358" duration="754000" />
-      <workItem from="1545213460729" duration="1942000" />
+      <updated>1545424970757</updated>
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42733000" />
-  </component>
   <component name="ToolWindowManager">
-    <frame x="237" y="10" width="1595" height="1043" extended-state="0" />
+    <frame x="662" y="200" width="1258" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.66760963" visible="true" weight="0.23111685" />
-      <window_info id="Structure" order="1" sideWeight="0.33239037" side_tool="true" visible="true" weight="0.23111685" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22984749" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Profiler" order="8" />
-      <window_info anchor="bottom" id="Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3278867" />
-      <window_info anchor="bottom" id="Problems" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="15" />
-      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="JetGradle" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Maven" order="10" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" weight="0.11152615" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20214522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22984749" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39870688" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286638" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Profiler" order="8" />
-      <window_info anchor="bottom" id="Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3279396" />
-      <window_info anchor="bottom" id="Problems" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="15" />
-      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32901832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="JetGradle" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Maven" order="10" />
-    </layout-to-restore>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/presentation/uicomponents/toppanel/TopPanel.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/presentation/scenes/playerview/PlayerViewController.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/structure/Commands.java">
+    <entry file="jar://$USER_HOME$/Dokumente/jdk-11.0.1/lib/src.zip!/java.desktop/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="1307" selection-start-line="1307" selection-end-line="1307" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/filelist/TrackListCell.java" />
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/uicomponents/filelist/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/scenes/playerview/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/Mp3PlayerView.java" />
-    <entry file="file://$PROJECT_DIR$/src/presentation/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/icons/stop-1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/icons/stop.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/icons/back.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/icons/fast-forward-1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/icons/rewind.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/icons/rewind-1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/icons/fast-forward.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/icons/play-button-1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/icons/play-button.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/icons/pause-1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/icons/pause.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/icons/next.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/scenes/playerview/PlayerView.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/structure/KeyboardController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/playercontent/style.css">
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/uicomponents/playlistcontent/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/application/application.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/playercontrol/style.css">
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/list/style.css" />
+    <entry file="jar://$USER_HOME$/Dokumente/javafx-sdk-11.0.1/lib/javafx.base.jar!/javafx/event/EventHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/scenes/playerview/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/sidepanel/SidePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/toppanel/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/bottompanel/BottomPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/list/TrackListCell.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/list/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/list/ListViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Dokumente/jdk-11.0.1/lib/src.zip!/java.base/java/io/FilenameFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/playercontrol/PlayerControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="48" lean-forward="true" selection-start-column="48" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/scenes/playerview/PlayerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/scenes/playlistview/PlaylistView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/scenes/playlistview/PlayListViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Dokumente/javafx-sdk-11.0.1/lib/javafx.graphics.jar!/javafx/stage/Window.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="483" selection-start-line="483" selection-end-line="483" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Dokumente/javafx-sdk-11.0.1/lib/javafx.base.jar!/javafx/beans/property/ObjectPropertyBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Dokumente/javafx-sdk-11.0.1/lib/javafx.controls.jar!/javafx/scene/control/ToggleButton.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Dokumente/javafx-sdk-11.0.1/lib/javafx.base.jar!/javafx/beans/property/BooleanPropertyBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Dokumente/javafx-sdk-11.0.1/lib/javafx.controls.jar!/javafx/scene/control/ToggleGroup.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="120">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Dokumente/javafx-sdk-11.0.1/lib/javafx.graphics.jar!/javafx/scene/Node.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="434" selection-start-line="434" selection-end-line="434" />
+        <state relative-caret-position="182">
+          <caret line="3702" selection-start-line="3702" selection-end-line="3702" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Dokumente/javafx-sdk-11.0.1/lib/javafx.base.jar!/javafx/beans/property/ReadOnlyObjectWrapper.class">
+    <entry file="jar://$USER_HOME$/Dokumente/javafx-sdk-11.0.1/lib/javafx.controls.jar!/javafx/scene/control/skin/VirtualFlow.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="157">
+          <caret line="172" column="41" selection-start-line="172" selection-start-column="41" selection-end-line="172" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Dokumente/javafx-sdk-11.0.1/lib/javafx.base.jar!/javafx/beans/property/ReadOnlyObjectPropertyBase.class">
+    <entry file="jar://$USER_HOME$/Dokumente/javafx-sdk-11.0.1/lib/javafx.controls.jar!/javafx/scene/control/skin/ListViewSkin.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="-113">
+          <caret line="265" selection-start-line="265" selection-end-line="265" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/toppanel/TopPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/list/ListViewModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/list/TrackListCell.java" />
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/uicomponents/playercontrol/PlayerControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="915">
+          <caret line="135" column="11" selection-start-line="135" selection-start-column="11" selection-end-line="135" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/application/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/sources/mp3agic.jar!/com/mpatric/mp3agic/FileWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#1198#1199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/sources/eibo_simpleminim.jar!/de/hsrm/mi/eibo/simpleplayer/SimpleMinim.java">
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/uicomponents/viewcontrol/ViewControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#407#408#0" expanded="true" />
-          </folding>
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structure/Mp3Player.java">
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/uicomponents/toppanel/TopPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="405">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structure/Track.java">
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/uicomponents/timecontrol/TimeControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/scenes/playerview/PlayerViewController.java">
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/uicomponents/songinfo/SongInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding>
-            <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1161#1162#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1020">
+          <caret line="68" column="44" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structure/Playlist.java">
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/uicomponents/sidepanel/SidePanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="106" column="48" selection-start-line="106" selection-start-column="43" selection-end-line="106" selection-end-column="48" />
-          <folding>
-            <element signature="e#4041#4042#0" expanded="true" />
-            <element signature="e#4082#4083#0" expanded="true" />
-            <element signature="e#4209#4210#0" expanded="true" />
-            <element signature="e#4245#4246#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structure/PlaylistManager.java">
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/uicomponents/playlistcontent/PlaylistContent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="method#settingsInfo#0;class#PlaylistManager#0" />
-            <element signature="e#1218#1219#0" expanded="true" />
-            <element signature="e#1307#1308#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/cover/Cover.java">
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/uicomponents/playercontent/PlayerContent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="-197">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/uicomponents/filelist/FileList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/playercontent/PlayerContent.java">
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/uicomponents/cover/Cover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="343">
+          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/uicomponents/bottompanel/BottomPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/scenes/playlistview/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/scenes/playlistview/PlaylistViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/structure/Commands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/structure/Playlist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getSongNames#0;class#Playlist#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/structure/PlaylistManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="method#getPlaylist#0;class#PlaylistManager#0" />
+            <element signature="method#getPlaylistNames#0;class#PlaylistManager#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/structure/Track.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="163" selection-start-line="163" selection-end-line="163" />
+          <folding>
+            <element signature="method#getYear#0;class#Track#0" />
+            <element signature="method#getTrack#0;class#Track#0" />
+            <element signature="method#getKey#0;class#Track#0" />
+            <element signature="method#getGenre#0;class#Track#0" />
+            <element signature="method#getBpm#0;class#Track#0" />
+            <element signature="method#getTitle#0;class#Track#0" />
+            <element signature="method#getArtist#0;class#Track#0" />
+            <element signature="method#getAlbum#0;class#Track#0" />
+            <element signature="method#getComment#0;class#Track#0" />
+            <element signature="method#getCover#0;class#Track#0" />
+            <element signature="method#getLength#0;class#Track#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/structure/WaveformRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/structure/Mp3Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="283" column="19" selection-start-line="283" selection-start-column="19" selection-end-line="283" selection-end-column="19" />
+          <folding>
+            <element signature="e#7811#7812#0" expanded="true" />
+            <element signature="e#7854#7855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/scenes/playlistview/PlaylistView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/scenes/playerview/PlayerViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/scenes/playerview/PlayerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EIBO/MP3Player_FX/src/presentation/application/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1057,12 +523,24 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MP3Player_FX</last-edited>
+          <last-edited>EIBO-dorian</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
                 <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

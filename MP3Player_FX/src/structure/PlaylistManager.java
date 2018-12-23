@@ -1,61 +1,71 @@
 package structure;
 
-import java.util.HashMap;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+
+import java.util.ArrayList;
 
 public class PlaylistManager {
 
-    private Playlist aktuell;
-    private HashMap<String, Playlist> playlists = new HashMap<>();
+    private int aktPlaylist;
+    private ArrayList<Playlist> playlists = new ArrayList<>();
+    private ObservableList<Playlist> lists = FXCollections.observableArrayList(playlists);
 
-/*
-    public Backend.PlaylistManager (){
-        this.aktuell = new Backend.Playlist();
+    //KONSTRUKTOR
+    public PlaylistManager (Playlist playlist){
+        this.playlists.add(playlist);
+        this.aktPlaylist = 0;
     }
-*/
 
-    //KONSTRUKTOREN
-
-    public  PlaylistManager (Playlist playlist){
-        this.aktuell=playlist;
-        this.playlists.put(playlist.getName(), playlist);
+    //Hinzufügen der Playlist
+    public void addPlaylist (Playlist playlist){
+        this.playlists.add(playlist);
     }
 
     //GETTER
-
     public Playlist getPlaylist (String playlistname){
-        for (int i=0; i<playlists.size(); i++) {
-            if (playlists.get(i).toString().equalsIgnoreCase(playlistname)) {
-                return playlists.get(i);
+        for (Playlist playlist : playlists) {
+            if (playlist.toString().equalsIgnoreCase(playlistname)) {
+                return playlist;
             }
         }
         return null;
     }
 
+    public Playlist getPlaylist (int index){
+        return playlists.get(index);
+    }
+
     public Playlist getAktPlaylist(){
-        return this.aktuell;
+        return this.playlists.get(aktPlaylist);
     }
 
-    public void settingsInfo(){
-        String s, r;
-        if (aktuell.isShuffle()) s="ON";
-        else s="OFF";
-        if (aktuell.isRepeat()) r="ON";
-        else r="OFF";
-        System.out.println("Aktuelle Einstellungen: Repeat: "+r+" | "+"Shuffle: "+s);
+    public String getAktPlaylistName(){
+        return this.playlists.get(aktPlaylist).getName();
     }
 
-    public void playlistInfo(){
-        System.out.println("Aktuelle Backend.Playlist: "+aktuell.getName());
+    public ArrayList<String> getPlaylistNames(){
+        ArrayList<String> playlistnames = new ArrayList<>();
+        if (playlists!=null){
+            for (int i=0; i<playlists.size(); i++){
+                playlistnames.add(playlists.get(i).getName());
+            }
+            return playlistnames;
+        }
+        return null;
     }
 
-    public void songInfo(){
-        System.out.println("Aktueller Song: "+aktuell.getAktSong().getSong().getFilename());
+    public ObservableList<Playlist> getLists(){
+        return this.lists;
     }
 
-
+    //SETTER
+    public void setAktPlaylist (int index){
+        this.aktPlaylist = index;
+    }
 
     public void savePlaylist(Playlist playlist){
-        this.playlists.put(playlist.getName(), playlist);
+        this.playlists.add(playlist);
     }
 
     public void deletePlaylist(Playlist playlist){
