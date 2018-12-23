@@ -34,7 +34,7 @@ public class Main extends Application {
         defPlaylist = new Playlist();
         manager = new PlaylistManager(defPlaylist);
         player = new Mp3Player(defPlaylist);
-        manager.addPlaylist(new Playlist("eigenePlaylist", "MP3Player_FX/newsongs"));
+        manager.addPlaylist(new Playlist("eigenePlaylist", "./newsongs"));
 
         playerViewController = new PlayerViewController(player, this);
         playlistViewController = new PlaylistViewController(player, manager,this);

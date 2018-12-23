@@ -21,7 +21,7 @@ public class Playlist {
         songs = new ArrayList<>();
 
         File file = new File("default2.m3u");
-        File directory = new File("MP3Player_FX/songs");
+        File directory = new File("./songs");
         File[] content = directory.listFiles((dir, name) -> name.toLowerCase().endsWith(".mp3"));
 
         if (content != null) Arrays.sort(content);
