@@ -65,8 +65,6 @@ public class Mp3Player {
         player.setAudioSpectrumListener(spektrumListener);
 
     }
-
-
     public void loadSong(int index){
         spektrum.getData().clear();
         this.aktSong = aktPlaylist.getSong(index);
@@ -90,9 +88,7 @@ public class Mp3Player {
             series1Data[i] = new XYChart.Data<>(Integer.toString(i + 1), 0);
             series1.getData().add(series1Data[i]);
         }
-
         spektrum.getData().add(series1);
-
     }
 
     private class SpektrumListener implements AudioSpectrumListener {
@@ -109,7 +105,6 @@ public class Mp3Player {
     public AreaChart<String, Number> getSpektrum(){
         return this.spektrum;
     }
-
 
     public void play(){
         player.play();

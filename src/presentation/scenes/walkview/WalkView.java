@@ -1,7 +1,6 @@
 package presentation.scenes.walkview;
 
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.Pane;
 import presentation.application.Main;
 import presentation.uicomponents.bottompanel.BottomPanel;
 import presentation.uicomponents.frostcontent.FrostContent;
