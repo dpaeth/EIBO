@@ -21,7 +21,7 @@ public class WalkView extends BorderPane {
         BottomPanel bottomPanel = new BottomPanel(player);
         sidePanelLeft = new SidePanel();
         //SidePanel sidePanelRight = new SidePanel();
-
+//
         //Pane mit anklickbaren Screenshots oder Buttons
         //SWITCHCONTENT coolContent, frostContent, kidcontent
         CoolContent coolContent = new CoolContent(player);
