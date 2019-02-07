@@ -1,0 +1,18 @@
+.list-cell {
+    -fx-background-color: #3E3E3E;
+    -fx-text-fill: #bbbbbb;
+
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #717171;
+    -fx-text-fill: white;
+}
+
+.list-view {
+    -fx-border-radius: 0;
+}
+
+.label {
+    -fx-text-fill: #bbbbbb;
+}

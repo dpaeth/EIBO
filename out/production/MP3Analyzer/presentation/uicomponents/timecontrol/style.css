@@ -1,0 +1,25 @@
+.label {
+    -fx-text-fill: #717171;
+    -fx-min-width: 40;
+    -fx-max-width: 40;
+
+}
+
+.slider{
+    -fx-background-color: transparent;
+    -fx-min-width: 500;
+    -fx-max-width: 600;
+
+}
+
+.slider .thumb {
+    -fx-background-color: #717171;
+}
+
+.slider .track {
+    -fx-background-color: #3E3E3E;
+}
+
+.slider .thumb:hover {
+    -fx-background-color: #e7ecee;
+}

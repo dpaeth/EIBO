@@ -1,0 +1,12 @@
+.label {
+    -fx-font-family: 'DejaVu Sans Mono', monospace;
+    -fx-text-fill: #bbbbbb;
+}
+
+#title {
+    -fx-font-size: 20;
+}
+
+#artist {
+    -fx-font-size: 15;
+}

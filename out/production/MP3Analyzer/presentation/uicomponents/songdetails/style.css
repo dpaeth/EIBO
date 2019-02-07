@@ -1,0 +1,9 @@
+.label {
+    -fx-font-family: 'DejaVu Sans Mono', monospace;
+    -fx-text-fill: #bbbbbb;
+
+
+    -fx-min-width: 150;
+    -fx-max-width: 150;
+
+}

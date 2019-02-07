@@ -1,0 +1,57 @@
+.chart {
+    -fx-legend-visible: false;
+    -fx-alternative-column-fill-visible: false;
+    -fx-alternative-row-fill-visible: false;
+    -fx-horizontal-grid-lines-visible: false;
+    -fx-horizontal-zero-line-visible: false;
+    -fx-vertical-grid-lines-visible: false;
+    -fx-vertical-zero-line-visible: false;
+    -fx-background-color: transparent;
+}
+
+.default-color0.chart-area-symbol { -fx-background-color: rgba(255, 0, 105, 0); }
+.default-color1.chart-area-symbol { -fx-background-color: rgba(255, 0, 105, 0); }
+.default-color2.chart-area-symbol { -fx-background-color: rgba(255, 0, 105, 0); }
+
+.default-color0.chart-series-area-line { -fx-stroke: rgba(255, 0, 105, 0); }
+.default-color1.chart-series-area-line { -fx-stroke: rgba(255, 0, 105, 0); }
+.default-color2.chart-series-area-line { -fx-stroke: rgba(255, 0, 105, 0); }
+
+.default-color0.chart-series-area-fill { -fx-fill: #ff7600; }
+.default-color1.chart-series-area-fill { -fx-fill: #ff7600; }
+.default-color2.chart-series-area-fill { -fx-fill: #ff7600; }
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+
+}
+
+.chart-content {
+    -fx-background-color: transparent;
+}
+
+.axis {
+    -fx-opacity: 0;
+    -fx-tick-mark-visible: false;
+    -fx-tick-labels-visible: false;
+}
+
+.button {
+    -fx-min-width: 20;
+    -fx-max-width: 20;
+    -fx-min-height: 20;
+    -fx-max-height: 20;
+    -fx-border-radius: 0 0 0 0;
+    -fx-background-radius: 0 0 0 0;
+}
+
+.button:hover {
+    -fx-opacity: 80%;
+}
+
+#color1 {-fx-background-color: #ff7600;}
+#color2 {-fx-background-color: #88ee00;}
+#color3 {-fx-background-color: #23fff5;}
+#color4 {-fx-background-color: #a000ff;}
+#color5 {-fx-background-color: white;}
+#color6 {-fx-background-color: #ff0069;}
