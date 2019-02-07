@@ -9,11 +9,12 @@ public class TopPanel extends StackPane {
     private final ViewControl viewcontrol;
 
     public TopPanel(Main application) {
-        this.setMinSize(1000, 60);
-        this.setMaxHeight(60);
-        this.setStyle("-fx-background-color: #3E3E3E;");
+        this.setMinSize(1000, 45);
+        this.setMaxHeight(45);
         this.viewcontrol = new ViewControl(application);
         this.getChildren().addAll(viewcontrol);
+        this.setId("toppanel");
+        this.getStylesheets().add(getClass().getResource("../style.css").toExternalForm());
     }
 
     public ViewControl getViewcontrol(){

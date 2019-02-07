@@ -1,12 +1,12 @@
 
 .button {
-    -fx-min-width: 50;
-    -fx-max-width: 50;
+    -fx-min-width: 40;
+    -fx-max-width: 40;
     -fx-min-height: 20;
     -fx-max-height: 20;
     -fx-border-radius: 0 0 0 0;
     -fx-background-radius: 0 0 0 0;
-    -fx-background-color: #2E2E30;
+    -fx-background-color: transparent;
     -fx-background-position: center;
     -fx-background-repeat: no-repeat;
 }
@@ -70,6 +70,6 @@
 
 }
 .button:hover {
-    -fx-background-color: #717171;
+    -fx-background-color: #c5c5c5;
 
 }

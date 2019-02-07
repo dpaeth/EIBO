@@ -31,7 +31,7 @@ public class PlayerContent extends VBox {
         this.setMinWidth(760);
         this.setPrefWidth(760);
         this.setPrefHeight(520);
-        this.setStyle("-fx-background-color: #2E2E30;");
+        this.setStyle("-fx-background-color: #1b1b1b;");
         this.getChildren().addAll(songinfo, cover, songdetails, timecontrol);
         this.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
 
@@ -54,11 +54,5 @@ public class PlayerContent extends VBox {
                 cover.setDefImage();
             }
         });
-
-
     }
-
-
-
-
 }

@@ -1,5 +1,5 @@
 package structure;
 
 public enum Views {
-    playlist, player, graphics;
+    playlist, player, graphics, walk;
 }

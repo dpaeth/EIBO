@@ -6,25 +6,18 @@ import javafx.geometry.Pos;
 import javafx.scene.chart.AreaChart;
 import javafx.scene.control.Button;
 import javafx.scene.layout.*;
+import javafx.scene.paint.Color;
 import presentation.uicomponents.songdetails.SongDetails;
 import presentation.uicomponents.songinfo.SongInfo;
 import structure.Mp3Player;
-
-
 
 public class GraphicsContent extends BorderPane {
     private final Mp3Player player;
     private final SongInfo songinfo;
     private final SongDetails songdetails;
-    private final Button color1, color2, color3, color4, color5, color6;
-
+    private final Button color1, color2, color3, color4, color5, color6, start;
     private int currentstyle=1;
-
-
     AreaChart<String, Number> spektrum;
-
-
-
     public GraphicsContent(Mp3Player player) {
         this.player = player;
         this.songinfo = new SongInfo(player);
@@ -33,7 +26,10 @@ public class GraphicsContent extends BorderPane {
 
         GridPane leftpanel = new GridPane();
         GridPane rightpanel = new GridPane();
+        StackPane x = new StackPane();
 
+        this.start = new Button();
+        start.setId("start");
         this.color1 = new Button();
         color1.setId("color1");
         this.color2 = new Button();
@@ -57,25 +53,32 @@ public class GraphicsContent extends BorderPane {
         leftpanel.add(color6, 1, 2);
         leftpanel.setAlignment(Pos.CENTER);
         leftpanel.setPadding(new Insets(20));
+        rightpanel.setHgap(5);
+        rightpanel.setVgap(5);
+        rightpanel.add(color1, 0, 0);
 
+        rightpanel.add(color2, 1, 0);
+        rightpanel.add(color3, 0, 1);
+        rightpanel.add(color4, 1, 1);
+        rightpanel.add(color5, 0, 2);
+        rightpanel.add(color6, 1, 2);
+        rightpanel.setAlignment(Pos.CENTER);
+        rightpanel.setPadding(new Insets(20));
         songinfo.setPadding(new Insets(20));
         songdetails.setPadding(new Insets(20));
 
-
-        //spektrum.setMaxWidth(1000);
-        //spektrum.setMaxHeight(750);
+        x.getChildren().addAll(spektrum);
+        x.setBorder(new Border(new BorderStroke(Color.BLACK,
+                BorderStrokeStyle.SOLID, CornerRadii.EMPTY, BorderWidths.DEFAULT)));
+        rightpanel.setBackground(Background.EMPTY);
 
         this.setTop(songinfo);
         this.setBottom(songdetails);
-        this.setCenter(spektrum);
+        this.setCenter(x);
         this.setLeft(leftpanel);
-        //this.setMinHeight(600);
-        //this.setMinWidth(800);
-        //this.setPrefWidth(1200);
-        //this.setPrefHeight(900);
+        this.setRight(rightpanel);
 
-        this.setStyle("-fx-background-color: #2E2E30;");
-        //this.getChildren().addAll(songinfo, spektrum);
+        this.setStyle("-fx-background-color: #1b1b1b;");
         this.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
         initialize();
     }
@@ -86,7 +89,6 @@ public class GraphicsContent extends BorderPane {
             songinfo.setLabels(player);
             songdetails.setLabels(player);
         });
-
 
         color1.addEventHandler(ActionEvent.ACTION, e -> {
             if (currentstyle != 1) {
@@ -101,38 +103,42 @@ public class GraphicsContent extends BorderPane {
                 spektrum.getStylesheets().clear();
                 spektrum.getStylesheets().add(getClass().getResource("Chartstyles/cstyle2.css").toExternalForm());
                 currentstyle = 2;
-            }});
+            }
+        });
 
         color3.addEventHandler(ActionEvent.ACTION, e -> {
             if (currentstyle != 3) {
                 spektrum.getStylesheets().clear();
                 spektrum.getStylesheets().add(getClass().getResource("Chartstyles/cstyle3.css").toExternalForm());
                 currentstyle = 3;
-            }});
+            }
+        });
 
         color4.addEventHandler(ActionEvent.ACTION, e -> {
             if (currentstyle != 4) {
                 spektrum.getStylesheets().clear();
                 spektrum.getStylesheets().add(getClass().getResource("Chartstyles/cstyle4.css").toExternalForm());
                 currentstyle = 4;
-            }});
+            }
+        });
 
         color5.addEventHandler(ActionEvent.ACTION, e -> {
             if (currentstyle != 5) {
                 spektrum.getStylesheets().clear();
                 spektrum.getStylesheets().add(getClass().getResource("Chartstyles/cstyle5.css").toExternalForm());
                 currentstyle = 5;
-            }});
+            }
+        });
 
         color6.addEventHandler(ActionEvent.ACTION, e -> {
             if (currentstyle != 6) {
                 spektrum.getStylesheets().clear();
                 spektrum.getStylesheets().add(getClass().getResource("Chartstyles/cstyle6.css").toExternalForm());
                 currentstyle = 6;
-            }});
-
-
+            }
+        });
     }
+
 
 
 

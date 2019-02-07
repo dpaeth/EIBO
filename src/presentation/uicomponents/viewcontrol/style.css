@@ -1,24 +1,35 @@
 .button {
-    -fx-min-width: 50;
-    -fx-max-width: 50;
+    -fx-min-width: 40;
+    -fx-max-width: 40;
     -fx-min-height: 20;
     -fx-max-height: 20;
     -fx-border-radius: 0 0 0 0;
-    -fx-text-fill: #fff;
     -fx-background-radius: 0 0 0 0;
-    -fx-background-color: #2E2E30;
+    -fx-background-color: transparent;
     -fx-background-position: center;
     -fx-background-repeat: no-repeat;
-    -fx-font-size: 8px;
 }
 
-#switch-button {
-    -fx-background-image: url("../../../assets/icons/folder.png");
+#list {
+    -fx-background-image: url("../../../assets/icons/list.png");
     -fx-background-size: 15px;
+}
 
+#player {
+    -fx-background-image: url("../../../assets/icons/player.png");
+    -fx-background-size: 15px;
+}
+
+#graph {
+    -fx-background-image: url("../../../assets/icons/graph.png");
+    -fx-background-size: 15px;
+}
+#walk {
+    -fx-background-image: url("../../../assets/icons/walk.png");
+    -fx-background-size: 15px;
 }
 
 .button:hover {
-    -fx-background-color: #717171;
+    -fx-background-color: #c5c5c5;
 
 }

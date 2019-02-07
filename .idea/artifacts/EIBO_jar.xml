@@ -2,7 +2,6 @@
   <artifact type="jar" name="EIBO:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/EIBO_jar</output-path>
     <root id="archive" name="EIBO.jar">
-      <element id="module-output" name="EIBO" />
       <element id="extracted-dir" path="$PROJECT_DIR$/MP3Player_FX/src/sources/mp3agic.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/MP3Player_FX/src/sources/tritonus_share.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/Dokumente/javafx-sdk-11.0.1/lib/src.zip" path-in-jar="/" />
@@ -21,6 +20,7 @@
       <element id="extracted-dir" path="$PROJECT_DIR$/MP3Player_FX/src/sources/eibo_simpleminim.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/MP3Player_FX/src/sources/tritonus_aos.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/MP3Player_FX/src/sources/jl1.0.1.jar" path-in-jar="/" />
+      <element id="library" level="project" name="lib" />
     </root>
   </artifact>
 </component>

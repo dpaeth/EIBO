@@ -14,14 +14,14 @@ public class PlaylistView extends BorderPane {
     public PlaylistView(Mp3Player player, PlaylistManager manager, Main application) {
         TopPanel topPanel = new TopPanel(application);
         BottomPanel bottomPanel = new BottomPanel(player);
-        SidePanel sidePanelLeft = new SidePanel();
-        SidePanel sidePanelRight = new SidePanel();
+        //SidePanel sidePanelLeft = new SidePanel();
+        //SidePanel sidePanelRight = new SidePanel();
         PlaylistContent playlistContent = new PlaylistContent(player, manager);
 
         this.setTop(topPanel);
         this.setBottom(bottomPanel);
-        this.setLeft(sidePanelLeft);
-        this.setRight(sidePanelRight);
+        //this.setLeft(sidePanelLeft);
+        //this.setRight(sidePanelRight);
         this.setCenter(playlistContent);
     }
 

@@ -1,11 +1,13 @@
 package structure;
 
-import de.hsrm.mi.eibo.simpleplayer.SimpleAudioPlayer;
-import de.hsrm.mi.eibo.simpleplayer.SimpleMinim;
-
+import ddf.minim.AudioPlayer;
+import ddf.minim.Minim;
+import ddf.minim.analysis.FFT;
 import javafx.animation.*;
 import javafx.application.Platform;
 import javafx.beans.property.*;
+import javafx.geometry.BoundingBox;
+import javafx.geometry.Bounds;
 import javafx.scene.chart.AreaChart;
 import javafx.scene.chart.CategoryAxis;
 import javafx.scene.chart.NumberAxis;
@@ -14,6 +16,7 @@ import javafx.scene.media.*;
 import javafx.util.Duration;
 
 import java.io.File;
+import java.io.InputStream;
 import java.util.Arrays;
 
 public class Mp3Player {
@@ -22,7 +25,7 @@ public class Mp3Player {
     private Playlist aktPlaylist;
     private Track aktSong;
 
-    private final double DROPDOWN = 0;
+    private final double DROPDOWN = -0.5;
     private static final double INTERVAL = 0;
 
 
@@ -35,12 +38,15 @@ public class Mp3Player {
     private final BooleanProperty playing = new SimpleBooleanProperty();
     private final StringProperty aktSongName = new SimpleStringProperty();
     private final StringProperty aktPlaylistName = new SimpleStringProperty();
-
+    private final FloatProperty volume = new SimpleFloatProperty();
+    private final FloatProperty spektr = new SimpleFloatProperty();
+    private SpektrumListener spektrumListener;
     private final CategoryAxis xAxis = new CategoryAxis();
-    private final NumberAxis yAxis = new NumberAxis();
-    private final AreaChart<String, Number> spektrum = new AreaChart<String, Number>(xAxis,yAxis);
+    private final NumberAxis yAxis = new NumberAxis(0,60,20);
+    private AreaChart<String, Number> spektrum = new AreaChart<String, Number>(xAxis,yAxis);
     private int bands;
     private XYChart.Data[] series1Data;
+
 
     public Mp3Player(Playlist aktPlaylist){
         this.aktPlaylist = aktPlaylist;
@@ -55,7 +61,11 @@ public class Mp3Player {
                 ae -> refreshPos()));
         timeline.setCycleCount(Animation.INDEFINITE);
         timeline.play();
+        spektrumListener = new SpektrumListener();
+        player.setAudioSpectrumListener(spektrumListener);
+
     }
+
 
     public void loadSong(int index){
         spektrum.getData().clear();
@@ -65,49 +75,40 @@ public class Mp3Player {
         this.playlistSize.setValue(aktPlaylist.getSize());
         this.player = new MediaPlayer(new Media(new File(aktSong.getFilename()).toURI().toString()));
         this.bands = player.getAudioSpectrumNumBands();
+        loadSpektrum();
+    }
+
+    public void loadSpektrum() {
         this.aktSongLength.setValue(player.getTotalDuration().toMillis());
-        player.setAudioSpectrumListener(new SpektrumListener());
-        //player.setAudioSpectrumInterval(INTERVAL);
+        spektrumListener = new SpektrumListener();
+        player.setAudioSpectrumListener(spektrumListener);
+
         XYChart.Series<String, Number> series1 = new XYChart.Series<>();
-        series1Data = new XYChart.Data[bands + 2];
-        for (int i = 0; i < series1Data.length; i++) {
+        series1Data = new XYChart.Data[bands/2];
+
+        for (int i = 0; i < 64; i++) {
             series1Data[i] = new XYChart.Data<>(Integer.toString(i + 1), 0);
             series1.getData().add(series1Data[i]);
         }
+
         spektrum.getData().add(series1);
+
     }
 
     private class SpektrumListener implements AudioSpectrumListener {
-        float[] buffer = createFilledBuffer(bands, player.getAudioSpectrumThreshold());
-
         @Override
         public void spectrumDataUpdate(double timestamp, double duration, float[] magnitudes, float[] phases) {
             Platform.runLater(() -> {
-                series1Data[0].setYValue(0);
-                series1Data[bands + 1].setYValue(0);
-                for (int i = 0; i < magnitudes.length; i++) {
-                    if (magnitudes[i] >= buffer[i]) {
-                        buffer[i] = magnitudes[i];
-                        series1Data[i + 1].setYValue(magnitudes[i] - player.getAudioSpectrumThreshold());
-                    } else {
-                        series1Data[i + 1].setYValue(buffer[i] - player.getAudioSpectrumThreshold());
-                        buffer[i] -= DROPDOWN;
-                    }
-                }
+                    for (int i = 0; i < 64; i++) {
+                            series1Data[i].setYValue(magnitudes[i] - player.getAudioSpectrumThreshold());
+                    };
             });
         }
-    }
-
-    private float[] createFilledBuffer(int size, float fillValue) {
-        float[] floats = new float[size];
-        Arrays.fill(floats, fillValue);
-        return floats;
     }
 
     public AreaChart<String, Number> getSpektrum(){
         return this.spektrum;
     }
-
 
 
     public void play(){
@@ -222,6 +223,14 @@ public class Mp3Player {
         return repeat;
     }
 
+    public FloatProperty volumeProperty() {
+        return volume;
+    }
+
+    public FloatProperty spektrProperty() {
+        return spektr;
+    }
+
     public IntegerProperty positionProperty(){
         position.setValue(player.getCurrentTime().toMillis());
         return position;
@@ -244,7 +253,6 @@ public class Mp3Player {
     public void setVolume(float value) {
         player.setVolume(value);
     }
-
 }
 
 

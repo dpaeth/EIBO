@@ -23,9 +23,7 @@ public class PlayerControl extends BorderPane {
     private final Button back;
     private final Button shuffle;
     private final Button repeat;
-
     private final Slider volume;
-
     private boolean isPlaying;
 
 
@@ -91,14 +89,17 @@ public class PlayerControl extends BorderPane {
             if (!isPlaying) {
                 player.play();
                 isPlaying = true;
+                player.loadSpektrum();
             } else {
                 player.pause();
+                player.getSpektrum().getData().clear();
                 isPlaying = false;
             }
         });
         stop.addEventHandler(ActionEvent.ACTION, e -> {
             player.stop();
             isPlaying = false;
+            player.getSpektrum().getData().clear();
         });
         skip.addEventHandler(ActionEvent.ACTION, e -> {
             player.skip();
@@ -106,7 +107,6 @@ public class PlayerControl extends BorderPane {
         });
         back.addEventHandler(ActionEvent.ACTION, e -> {
             player.back();
-            //view.setPlayerContent(new PlayerContent(player));
         });
         shuffle.addEventHandler(ActionEvent.ACTION, e -> player.shuffle());
         repeat.addEventHandler(ActionEvent.ACTION, e -> player.repeat());
@@ -114,7 +114,7 @@ public class PlayerControl extends BorderPane {
         /**
          * Falls der Volumeslider verschoben wird
          */
-        volume.valueProperty().addListener((observable, oldValue, newValue) -> player.setVolume(newValue.floatValue()));
+       // player.valueProperty().addListener((observable, oldValue, newValue) -> player.setVolume(newValue.floatValue()));
 
         /**
          * Falls sich im Backend etwas an shuffle bzw. repeat ändert
