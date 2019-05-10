@@ -1,7 +1,5 @@
 package presentation.uicomponents.filelist;
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
@@ -61,7 +59,6 @@ public class FileList extends VBox {
          * Falls sich die aktPlaylist im Backend ändert
          */
         manager.aktPlaylistProperty().addListener((observable, oldValue, newValue) -> playlists.getSelectionModel().select(newValue.intValue()));
-
 
         /**
          * Falls sich der aktuelle Song im Backend ändert

@@ -4,6 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.control.Slider;
+import javafx.scene.image.Image;
 import javafx.scene.layout.*;
 import javafx.scene.control.Button;
 import structure.Mp3Player;
@@ -24,11 +25,14 @@ public class PlayerControl extends BorderPane {
     private final Button shuffle;
     private final Button repeat;
     private final Slider volume;
-    private boolean isPlaying;
+    private boolean playing;
 
 
     public PlayerControl(Mp3Player player){
         this.player = player;
+
+        Image playImg = new Image(getClass().getResourceAsStream("../../../assets/icons/play.png"));
+        Image pauseImg = new Image(getClass().getResourceAsStream("../../../assets/icons/pause.png"));
 
         HBox left = new HBox();
         HBox center = new HBox();
@@ -40,6 +44,9 @@ public class PlayerControl extends BorderPane {
         play = new Button();
         play.setId("play");
 
+        Button pause = new Button();
+        pause.setId("pause");
+
         stop = new Button();
         stop.setId("stop");
 
@@ -50,13 +57,12 @@ public class PlayerControl extends BorderPane {
         shuffle.setId("shuffle");
         shuffle.setStyle("-fx-border-color: #ee1200");
 
-
         repeat = new Button();
         repeat.setId("repeat");
         repeat.setStyle("-fx-border-color: #ee1200");
 
-
-        volume = new Slider(0, 50, 40);
+        volume = new Slider(0, 1, 1);
+        volume.setValue(player.getVolume() * 100);
 
         center.getChildren().addAll(back, play, stop, skip);
         left.getChildren().addAll(shuffle, repeat);
@@ -78,54 +84,62 @@ public class PlayerControl extends BorderPane {
 
         this.getStylesheets().add(getClass().
                 getResource("style.css").toExternalForm());
+
         initialize();
     }
 
     private void initialize(){
         /**
-         * Falls auf einen der Button geklickt wurde
+         * Falls auf einen der Buttons geklickt wurde
          */
         play.addEventHandler(ActionEvent.ACTION, e -> {
-            if (!isPlaying) {
+            if (!playing) {
                 player.play();
-                isPlaying = true;
+                playing = true;
                 player.loadSpektrum();
             } else {
                 player.pause();
                 player.getSpektrum().getData().clear();
-                isPlaying = false;
+                playing = false;
             }
         });
+
         stop.addEventHandler(ActionEvent.ACTION, e -> {
             player.stop();
-            isPlaying = false;
+            playing = false;
             player.getSpektrum().getData().clear();
         });
+
         skip.addEventHandler(ActionEvent.ACTION, e -> {
             player.skip();
             //view.setPlayerContent(new PlayerContent(player));
         });
+
         back.addEventHandler(ActionEvent.ACTION, e -> {
             player.back();
         });
+
         shuffle.addEventHandler(ActionEvent.ACTION, e -> player.shuffle());
+
         repeat.addEventHandler(ActionEvent.ACTION, e -> player.repeat());
 
         /**
          * Falls der Volumeslider verschoben wird
          */
-       // player.valueProperty().addListener((observable, oldValue, newValue) -> player.setVolume(newValue.floatValue()));
+        player.volumeProperty().bindBidirectional(volume.valueProperty());
 
-        /**
-         * Falls sich im Backend etwas an shuffle bzw. repeat ändert
-         */
-        player.shuffleProperty().addListener((observable, oldValue, newValue) -> {
-            if (newValue){
-                shuffle.setStyle("-fx-border-color: #88ee00");
-            } else {
-                shuffle.setStyle("-fx-border-color: #ee1200");
-            }
-        });
+
+                /**
+                 * Falls sich im Backend etwas an shuffle bzw. repeat ändert
+                 */
+                player.shuffleProperty().addListener((observable, oldValue, newValue) -> {
+                    if (newValue) {
+                        shuffle.setStyle("-fx-border-color: #88ee00");
+                    } else {
+                        shuffle.setStyle("-fx-border-color: #ee1200");
+                    }
+                });
+
         player.repeatProperty().addListener((observable, oldValue, newValue) -> {
             if (newValue){
                 repeat.setStyle("-fx-border-color: #88ee00");
@@ -134,8 +148,17 @@ public class PlayerControl extends BorderPane {
             }
         });
 
+        /**
+         * Switch zwischen Play/Pause Icon
+         */
+        player.isPlaying().addListener((observable, oldValue, newValue) -> {
+            if (newValue){
+                play.setId("pause");
+            } else {
+                play.setId("play");
+            }
 
-
+        });
     }
     
 }

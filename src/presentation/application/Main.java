@@ -9,10 +9,7 @@ import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.util.Duration;
-import presentation.scenes.graphicsview.GraphicsView;
 import presentation.scenes.playerview.PlayerView;
-import presentation.scenes.playlistview.PlaylistView;
-import presentation.scenes.walkview.WalkView;
 import structure.Mp3Player;
 import structure.Playlist;
 import structure.PlaylistManager;
@@ -23,43 +20,38 @@ import structure.Views;
  */
 public class Main extends Application {
 
-    private PlaylistView playlistview;
     private PlayerView playerview;
-    private GraphicsView graphicsview;
-    private WalkView walkView;
 
-    private Stage primaryStage;
-
-    @Override
     /**
      * Hier werden alle im Backend benötigten Klassen, plus die Controller der benötigten Views initialisiert
      */
+    @Override
     public void init(){
 
         Playlist defPlaylist = new Playlist();
         PlaylistManager manager = new PlaylistManager(defPlaylist);
-        Mp3Player player = new Mp3Player(defPlaylist);
         manager.addPlaylist(new Playlist("eigenePlaylist", "./newsongs"));
+        Mp3Player player = new Mp3Player(manager.getPlaylist(0));
 
-        playlistview = new PlaylistView(player, manager, this);
-        playerview = new PlayerView(player, this);
-        graphicsview = new GraphicsView(player, this);
-        walkView = new WalkView(player, this);
+
+        //playlistview = new PlaylistView(player, manager, this);
+        playerview = new PlayerView(player, manager, this);
+        //coolView = new CoolView(player, this);
+
     }
 
-    @Override
     /**
      * Hier kann die default-Ansicht (was angezeigt werden soll, sobald sich das Programm öffnet) angepasst werden
      * Momentan: Playerview
      */
+    @Override
     public void start(Stage primaryStage) {
-        this.primaryStage = primaryStage;
 
         Pane root = new Pane();
         root.setStyle("-fx-background-color: transparent;");
 
         Scene scene = new Scene(root, 1000, 750);
-        scene.setRoot(walkView);
+        scene.setRoot(playerview);
 
         scene.getStylesheets().add(getClass().
                 getResource("application.css").toExternalForm());
@@ -72,37 +64,54 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-    public synchronized void switchView(Views view) {
-        Scene scene = primaryStage.getScene();
-        switch (view) {
-            case player:
-                if(scene.getRoot() != playerview) {
-                    if (scene.getRoot() == graphicsview) {
-                        animateBackSwitch(scene, playerview, (Pane) scene.getRoot());
-                    } else {
-                        animateSwitch(scene, (Pane) scene.getRoot(), playerview);
-                    }
-                }
-                break;
+    public void switchView(Views view) {
+        //Scene scene = primaryStage.getScene();
+        playerview.switchCenter(view);
+
+            /*
             case playlist:
                 if(scene.getRoot() != playlistview) {
                     animateBackSwitch(scene, playlistview, (Pane) scene.getRoot());
                 }
                 break;
-            case graphics:
-                if(scene.getRoot() != graphicsview) {
-                    if(scene.getRoot() == playerview) {
-                        animateSwitch(scene, (Pane) scene.getRoot(), graphicsview);
+            case player:
+                if(scene.getRoot() != playerview) {
+                    if (scene.getRoot() == playlistview) {
+                        animateSwitch(scene, (Pane) scene.getRoot(), playerview);
                     } else {
-                        animateBackSwitch(scene, graphicsview,(Pane) scene.getRoot());
+                        animateBackSwitch(scene, playerview, (Pane) scene.getRoot());
                     }
                 }
                 break;
-            case walk:
-                if(scene.getRoot() != walkView) {
-                animateSwitch(scene, (Pane) scene.getRoot(), walkView);
-            }
-        }
+            case cool:
+                if(scene.getRoot() != coolView) {
+                    coolView = new CoolView(player, this);
+                    if(scene.getRoot() == playerview) {
+                        animateSwitch(scene, (Pane) scene.getRoot(), coolView);
+                    } else {
+                        animateBackSwitch(scene, coolView,(Pane) scene.getRoot());
+                    }
+                }
+                break;
+            case frost:
+                if(scene.getRoot() != frostView) {
+                    frostView = new FrostView(player, this);
+                    if(scene.getRoot() != kidView) {
+                        animateSwitch(scene, (Pane) scene.getRoot(), frostView);
+                    } else {
+                        animateBackSwitch(scene, frostView,(Pane) scene.getRoot());
+                    }
+                    break;
+                }
+            case kid:
+                if(scene.getRoot() != kidView) {
+                    kidView = new KidView(player, this);
+                    animateSwitch(scene, (Pane) scene.getRoot(), kidView);
+                    break;
+                }
+
+            */
+
     }
 
     public synchronized void animateSwitch(Scene scene, Pane fromView, Pane toView) {

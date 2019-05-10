@@ -1,34 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Rectangle2D?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.StackPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.uicomponents.coolContent.FXMLDocumentController">
-   <children>
-      <VBox fx:id="a" onMouseClicked="#rotateImageWalkLeft" prefHeight="200.0" prefWidth="100.0">
-         <children>
-            <ImageView fx:id="arrowleft" fitHeight="76.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@cool/arrowleft.png" />
-               </image>
-            </ImageView>
-         </children>
-      </VBox>
-      <ImageView fx:id="rotateImage" fitHeight="1146.0" fitWidth="1160.0" layoutX="-227.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@cool/city.png" />
-         </image>
-      </ImageView>
-      <VBox alignment="TOP_RIGHT" layoutX="500.0" onMouseClicked="#rotateImageWalkRight" prefHeight="200.0" prefWidth="100.0">
-         <children>
-            <ImageView fx:id="arrowright" fitHeight="76.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@cool/arrowright.png" />
-               </image>
-            </ImageView>
-         </children>
-      </VBox>
-   </children>
-</AnchorPane>
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+           prefWidth="600.0" scaleX="0.8" scaleY="0.8" xmlns="http://javafx.com/javafx/8.0.172-ea"
+           xmlns:fx="http://javafx.com/fxml/1">
+    <ImageView fx:id="rotateImage" pickOnBounds="true" preserveRatio="true" scaleZ="0.0">
+        <image>
+          <Image url="@cool/cincinnati.png"/>
+        </image>
+        <viewport>
+          <Rectangle2D/>
+        </viewport>
+    </ImageView>
+</StackPane>

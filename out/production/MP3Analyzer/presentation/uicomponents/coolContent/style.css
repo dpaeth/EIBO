@@ -1,0 +1,79 @@
+.chart {
+    -fx-legend-visible: false;
+    -fx-alternative-column-fill-visible: false;
+    -fx-alternative-row-fill-visible: false;
+    -fx-horizontal-grid-lines-visible: false;
+    -fx-vertical-zero-line-visible: true;
+    -fx-horizontal-zero-line-visible: true;
+    -fx-vertical-grid-lines-visible: false;
+    -fx-vertical-zero-line-visible: false;
+    -fx-background-color: transparent;
+}
+
+.button {
+    -fx-min-width: 40;
+    -fx-max-width: 40;
+    -fx-min-height: 20;
+    -fx-max-height: 20;
+    -fx-border-radius: 0 0 0 0;
+    -fx-background-radius: 0 0 0 0;
+    -fx-background-color: white;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#cool {
+    -fx-background-image: url("../../../assets/icons/cool.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 15px;
+}
+#frost {
+    -fx-background-image: url("../../../assets/icons/frost.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 15px;
+}
+#kid {
+    -fx-background-image: url("../../../assets/icons/kid.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 15px;
+}
+
+
+.default-color0.chart-bar {
+    -fx-bar-fill: white;
+}
+
+.default-color1.chart-bar {
+    -fx-bar-fill: grey;
+}
+
+
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+
+}
+
+.chart-content {
+    -fx-background-color: transparent;
+}
+
+.axis {
+    -fx-opacity: 0;
+    -fx-tick-mark-visible: false;
+    -fx-tick-labels-visible: false;
+}
+.button {
+    -fx-min-width: 20;
+    -fx-max-width: 20;
+    -fx-min-height: 20;
+    -fx-max-height: 20;
+    -fx-border-radius: 0 0 0 0;
+    -fx-background-radius: 0 0 0 0;
+}
+
+.button:hover {
+    -fx-opacity: 80%;
+}
+
+

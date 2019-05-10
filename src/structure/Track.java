@@ -11,6 +11,30 @@ import java.io.ByteArrayInputStream;
  * Ein Trackobjekt kennt die eigentliche .mp3-Datei + schon herausgefilterte Informationen zur jeweiligen .mp3
  */
 public class Track {
+    private static final String[] GENRES = {"Blues", "Classic Rock", "Country",
+            "Dance", "Disco", "Funk", "Grunge", "Hip-Hop", "Jazz", "Metal", "New Age",
+            "Oldies", "Other", "Pop", "R&B", "Rap", "Reggae", "Rock", "Techno", "Industrial",
+            "Alternative", "Ska", "Death Metal", "Pranks", "Soundtrack", "Euro-Techno",
+            "Ambient", "Trip-Hop", "Vocal", "Jazz+Funk", "Fusion", "Trance", "Classical",
+            "Instrumental", "Acid", "House", "Game", "Sound Clip", "Gospel", "Noise",
+            "AlternRock", "Bass", "Soul", "Punk", "Space", "Meditative", "Instrumental Pop",
+            "Instrumental Rock", "Ethnic", "Gothic", "Darkwave", "Techno-Industrial",
+            "Electronic", "Pop-Folk", "Eurodance", "Dream", "Southern Rock", "Comedy",
+            "Cult", "Gangsta", "Top 40", "Christian Rap", "Pop/Funk", "Jungle",
+            "Native American", "Cabaret", "New Wave", "Psychadelic", "Rave", "Showtunes",
+            "Trailer", "Lo-Fi", "Tribal", "Acid Punk", "Acid Jazz", "Polka", "Retro",
+            "Musical", "Rock & Roll", "Hard Rock", "Folk", "Folk-Rock", "National Folk",
+            "Swing", "Fast Fusion", "Bebob", "Latin", "Revival", "Celtic", "Bluegrass",
+            "Avantgarde", "Gothic Rock", "Progressive Rock", "Psychedelic Rock",
+            "Symphonic Rock", "Slow Rock", "Big Band", "Chorus", "Easy Listening",
+            "Acoustic", "Humour", "Speech", "Chanson", "Opera", "Chamber Music", "Sonata",
+            "Symphony", "Booty Bass", "Primus", "Porn Groove", "Satire", "Slow Jam", "Club",
+            "Tango", "Samba", "Folklore", "Ballad", "Power Ballad", "Rhythmic Soul",
+            "Freestyle", "Duet", "Punk Rock", "Drum Solo", "A capella", "Euro-House",
+            "Dance Hall", "Goa", "Drum & Bass", "Club-House", "Hardcore", "Terror",
+            "Indie", "BritPop", "Negerpunk", "Polsk Punk", "Beat", "Christian Gangsta",
+            "Heavy Metal", "Black Metal", "Crossover", "Contemporary C", "Christian Rock",
+            "Merengue", "Salsa", "Thrash Metal", "Anime", "JPop", "SynthPop"};
 
     private final Mp3File song;
 
@@ -74,10 +98,10 @@ public class Track {
             return this.key;
         } else return "-";    }
 
-    public int getGenre() {
-        if (genre != 0) {
-            return this.genre;
-        } else return 0;    }
+    public String getGenre() {
+        if (genre != -1 ) {
+            return GENRES[this.genre];
+        } else return "Unbekannt";    }
 
     public int getBpm() {
         if (bpm != 0) {
@@ -121,7 +145,7 @@ public class Track {
      * @return
      */
     public Image getCover() {
-        if (song.getId3v2Tag().getAlbumImage() != null) {
+        if (song.hasId3v2Tag()) {
             try {
                 Image image =new Image(new ByteArrayInputStream(song.getId3v2Tag().getAlbumImage()));
                 if (!image.isError()){
@@ -140,7 +164,7 @@ public class Track {
      * @return
      */
     public int getLength() {
-        return length;
+        return this.length;
     }
 
 }

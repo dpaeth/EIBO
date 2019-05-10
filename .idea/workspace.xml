@@ -1,0 +1,1257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MP3Analyzer:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9e7e0238-752b-4225-9a6c-095d23908f05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sources/ColorThief.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sources/MMCQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sources/RGBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/EIBO_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/EIBO_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP3Analyzer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MP3Analyzer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default.m3u" beforeDir="false" afterPath="$PROJECT_DIR$/default.m3u" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default2.m3u" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eigenePlaylist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eigenePlaylist.m3u" beforeDir="false" afterPath="$PROJECT_DIR$/eigenePlaylist.m3u" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsongs/04_Man_O_To-Nu.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsongs/05_Take_It_All_In-Russ.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/assets/icons/folder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/assets/icons/graph.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/assets/icons/pause.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/assets/icons/pause.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/assets/icons/walk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/Views.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/application/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/application/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/application/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/scenes/graphicsview/GraphicsView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/scenes/graphicsview/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/scenes/playerview/PlayerView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/scenes/playerview/PlayerView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/scenes/playlistview/PlaylistView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/scenes/playlistview/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/scenes/walkview/WalkView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/coolContent/CoolContent$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/coolContent/CoolContent$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/coolContent/CoolContent$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/coolContent/CoolContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/coolContent/CoolContent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/coolContent/FXMLDocumentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/coolContent/background.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/coolContent/background.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/coolContent/cool/city.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/coolContent/cool/city.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/filelist/FileList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/filelist/FileList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/FXMLDocumentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/FrostContent$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/FrostContent$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/FrostContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/background.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/LEFT/step1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/LEFT/step10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/LEFT/step2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/LEFT/step3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/LEFT/step4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/LEFT/step5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/LEFT/step6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/LEFT/step7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/LEFT/step8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/LEFT/step9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/RIGHT/step1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/RIGHT/step10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/RIGHT/step2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/RIGHT/step3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/RIGHT/step4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/RIGHT/step5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/RIGHT/step6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/RIGHT/step7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/RIGHT/step8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/RIGHT/step9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/arrowleft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/arrowright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/frostcontent/frost/backgroundFROST.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/graphicscontent/Chartstyles/cstyle1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/graphicscontent/Chartstyles/cstyle2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/graphicscontent/Chartstyles/cstyle3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/graphicscontent/Chartstyles/cstyle4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/graphicscontent/Chartstyles/cstyle5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/graphicscontent/Chartstyles/cstyle6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/graphicscontent/Colors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/graphicscontent/GraphicsContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/graphicscontent/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/FXMLDocumentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/KidContent$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/KidContent$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/KidContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/background.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/LEFT/step1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/LEFT/step10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/LEFT/step2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/LEFT/step3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/LEFT/step4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/LEFT/step5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/LEFT/step6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/LEFT/step7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/LEFT/step8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/LEFT/step9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/RIGHT/step1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/RIGHT/step10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/RIGHT/step2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/RIGHT/step3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/RIGHT/step4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/RIGHT/step5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/RIGHT/step6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/RIGHT/step7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/RIGHT/step8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/RIGHT/step9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/arrowleft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/arrowright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/backgroundBH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/backgroundBLUEHEAD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/kidcontent/kid/backgroundBLUEHEAD2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/lines/Fenster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/lines/Line.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/lines/Panel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/playercontent/PlayerContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/playercontent/PlayerContent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/playercontrol/PlayerControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/playercontrol/PlayerControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/playercontrol/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/playercontrol/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/sidepanel/FXMLDocumentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/sidepanel/SidePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/sidepanel/choose.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/sidepanel/files/cool.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/sidepanel/files/frost.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/sidepanel/files/kid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/songdetails/SongDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/songdetails/SongDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/songdetails/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/songdetails/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/timecontrol/TimeControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/timecontrol/TimeControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/timecontrol/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/timecontrol/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/viewcontrol/ViewControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/viewcontrol/ViewControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/viewcontrol/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/viewcontrol/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/sources/eibo_simpleminim.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/sources/eibo_staticscanner.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/sources/processing/ant-launcher.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/sources/processing/ant.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/sources/processing/core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/sources/processing/jna-platform.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/sources/processing/jna.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/sources/processing/pde.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/structure/Mp3Player$SpektrumListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/structure/Mp3Player$SpektrumListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/structure/Mp3Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/structure/Mp3Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/structure/PlaylistManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/structure/PlaylistManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/structure/Track.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/structure/Track.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP3Analyzer/structure/Views.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP3Analyzer/structure/Views.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songs/03_SonneParkUndSterni.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/folder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/Views.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/scenes/graphicsview/GraphicsView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/scenes/graphicsview/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/scenes/playerview/PlayerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/scenes/playerview/PlayerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/scenes/playlistview/PlaylistView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/scenes/playlistview/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/scenes/walkview/WalkView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/coolContent/CoolContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/uicomponents/coolContent/CoolContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/coolContent/FXMLDocumentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/coolContent/background.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/uicomponents/coolContent/background.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/coolContent/cool/city.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/uicomponents/coolContent/cool/city.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/filelist/FileList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/uicomponents/filelist/FileList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/FXMLDocumentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/FrostContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/background.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/LEFT/step1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/LEFT/step10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/LEFT/step2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/LEFT/step3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/LEFT/step4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/LEFT/step5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/LEFT/step6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/LEFT/step7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/LEFT/step8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/LEFT/step9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/RIGHT/step1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/RIGHT/step10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/RIGHT/step2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/RIGHT/step3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/RIGHT/step4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/RIGHT/step5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/RIGHT/step6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/RIGHT/step7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/RIGHT/step8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/RIGHT/step9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/arrowleft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/arrowright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/frost/backgroundFROST.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/graphicscontent/Chartstyles/cstyle1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/graphicscontent/Chartstyles/cstyle2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/graphicscontent/Chartstyles/cstyle3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/graphicscontent/Chartstyles/cstyle4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/graphicscontent/Chartstyles/cstyle5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/graphicscontent/Chartstyles/cstyle6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/graphicscontent/Colors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/graphicscontent/GraphicsContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/graphicscontent/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/FXMLDocumentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/KidContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/background.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/LEFT/step1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/LEFT/step10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/LEFT/step2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/LEFT/step3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/LEFT/step4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/LEFT/step5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/LEFT/step6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/LEFT/step7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/LEFT/step8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/LEFT/step9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/RIGHT/step1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/RIGHT/step10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/RIGHT/step2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/RIGHT/step3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/RIGHT/step4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/RIGHT/step5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/RIGHT/step6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/RIGHT/step7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/RIGHT/step8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/RIGHT/step9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/arrowleft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/arrowright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/backgroundBH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/backgroundBLUEHEAD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/kid/backgroundBLUEHEAD2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/lines/Fenster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/lines/Line.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/lines/Panel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/playercontent/PlayerContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/uicomponents/playercontent/PlayerContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/playercontrol/PlayerControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/uicomponents/playercontrol/PlayerControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/playercontrol/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/uicomponents/playercontrol/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/sidepanel/FXMLDocumentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/sidepanel/SidePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/sidepanel/choose.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/sidepanel/files/cool.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/sidepanel/files/frost.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/sidepanel/files/kid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/songdetails/SongDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/uicomponents/songdetails/SongDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/songdetails/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/uicomponents/songdetails/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/uicomponents/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/timecontrol/TimeControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/uicomponents/timecontrol/TimeControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/timecontrol/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/uicomponents/timecontrol/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/viewcontrol/ViewControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/uicomponents/viewcontrol/ViewControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/uicomponents/viewcontrol/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/uicomponents/viewcontrol/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sources/eibo_simpleminim.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sources/eibo_staticscanner.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sources/processing/ant-launcher.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sources/processing/ant.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sources/processing/core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sources/processing/jna-platform.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sources/processing/jna.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sources/processing/pde.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structure/Mp3Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure/Mp3Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structure/PlaylistManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure/PlaylistManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structure/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure/Track.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structure/Views.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure/Views.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wireframe_uml.sketch" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/EIBO$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1549580368814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.28062156">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/presentation/application/Main.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="100">
+                  <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="method#animateBackSwitch#0;class#Main#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/presentation/scenes/playerview/PlayerView.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1155">
+                  <caret line="88" selection-start-line="88" selection-end-line="88" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/structure/Playlist.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1080">
+                  <caret line="79" selection-start-line="79" selection-end-line="79" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/structure/Track.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="13" selection-start-line="13" selection-end-line="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/timecontrol/TimeControl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="825">
+                  <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/songdetails/SongDetails.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="269">
+                  <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/playercontrol/PlayerControl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1815">
+                  <caret line="128" column="50" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/playercontent/PlayerContent.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="570">
+                  <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/coolContent/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/coolContent/CoolContent.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2280">
+                  <caret line="173" column="13" selection-start-line="173" selection-start-column="13" selection-end-line="173" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/structure/Views.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/structure/Characters.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#ff9600</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/presentation/scenes/walkview2/Walk2.java" />
+        <option value="$PROJECT_DIR$/src/presentation/scenes/walkview3/Walk3.java" />
+        <option value="$PROJECT_DIR$/src/presentation/scenes/walkview/WalkView.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/graphicscontent/GraphicsContent.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/Chartstyles/cstyle1.css" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/Chartstyles/cstyle2.css" />
+        <option value="$PROJECT_DIR$/out/production/MP3Analyzer/presentation/uicomponents/coolContent/Chartstyles/cstyle2.css" />
+        <option value="$PROJECT_DIR$/src/structure/Views.java" />
+        <option value="$PROJECT_DIR$/src/presentation/scenes/walkfrost/FrostView.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/viewcontrol/style.css" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/style.css" />
+        <option value="$PROJECT_DIR$/src/structure/Playlist.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/coolContent/Chartstyles/cstyle2.css" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/coolContent/Chartstyles/cstyle3.css" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/coolContent/Chartstyles/cstyle4.css" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/coolContent/Chartstyles/cstyle5.css" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/coolContent/Chartstyles/cstyle6.css" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/background.fxml" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/background.fxml" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/FXMLDocumentController.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/KidContent.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/FrostContent.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/playercontrol/style.css" />
+        <option value="$PROJECT_DIR$/../color-thief-java-master/src/main/java/de/androidpit/colorthief/ColorThief.java" />
+        <option value="$PROJECT_DIR$/src/sources/colorthief/ColorThief.java" />
+        <option value="$PROJECT_DIR$/src/sources/ColorThief.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/style.css" />
+        <option value="$PROJECT_DIR$/src/presentation/scenes/playlistview/PlaylistView.java" />
+        <option value="$PROJECT_DIR$/src/presentation/scenes/frostview/FrostView.java" />
+        <option value="$PROJECT_DIR$/src/presentation/scenes/kidview/KidView.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/toppanel/TopPanel.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/coolContent/background.fxml" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/coolContent/Chartstyles/cstyle1.css" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/viewcontrol/ViewControl.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/timecontrol/style.css" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/filelist/FileList.java" />
+        <option value="$PROJECT_DIR$/src/structure/PlaylistManager.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/playercontent/PlayerContent.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/songdetails/style.css" />
+        <option value="$PROJECT_DIR$/src/structure/Characters.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/coolContent/style.css" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/playercontrol/PlayerControl.java" />
+        <option value="$PROJECT_DIR$/src/presentation/scenes/coolview/CoolView.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/sidepanel/SidePanelLeft.java" />
+        <option value="$PROJECT_DIR$/src/presentation/scenes/playerview/PlayerView.java" />
+        <option value="$PROJECT_DIR$/src/structure/Track.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/coolContent/CoolContent.java" />
+        <option value="$PROJECT_DIR$/src/structure/Mp3Player.java" />
+        <option value="$PROJECT_DIR$/src/presentation/application/Main.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/timecontrol/TimeControl.java" />
+        <option value="$PROJECT_DIR$/src/presentation/uicomponents/songdetails/SongDetails.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EIBO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EIBO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EIBO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EIBO" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EIBO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EIBO" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EIBO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EIBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EIBO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EIBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="presentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EIBO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EIBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EIBO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EIBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
+              <item name="songdetails" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EIBO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EIBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="uicomponents" type="462c0819:PsiDirectoryNode" />
+              <item name="timecontrol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EIBO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EIBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552283526478" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sources" />
+      <recent name="$PROJECT_DIR$/src/presentation/uicomponents/coolContent" />
+      <recent name="$PROJECT_DIR$/MP3Player_FX" />
+      <recent name="$PROJECT_DIR$/MP3Player_FX/.idea" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="presentation.scenes.walkview3" />
+      <recent name="presentation.scenes.walkview2" />
+      <recent name="presentation.uicomponents.kidcontent" />
+      <recent name="presentation.uicomponents.frostcontent" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/presentation/uicomponents/coolContent" />
+      <recent name="$PROJECT_DIR$/src/presentation/uicomponents/frostcontent" />
+      <recent name="$PROJECT_DIR$/src/presentation/uicomponents/kidcontent" />
+      <recent name="$PROJECT_DIR$/out/production/MP3Analyzer/assets/icons" />
+      <recent name="$PROJECT_DIR$/src/presentation/uicomponents/walkcontent/walk" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="presentation.application.Main" />
+      <module name="MP3Analyzer" />
+      <option name="VM_PARAMETERS" value="--module-path javafx-sdk-11.0.2/lib --add-modules=javafx.controls,javafx.media,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e7e0238-752b-4225-9a6c-095d23908f05" name="Default Changelist" comment="" />
+      <created>1545561908731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545561908731</updated>
+      <workItem from="1551860593378" duration="667000" />
+      <workItem from="1551968457137" duration="371000" />
+      <workItem from="1551969008660" duration="3044000" />
+      <workItem from="1552053905723" duration="32209000" />
+      <workItem from="1552141691687" duration="9015000" />
+      <workItem from="1552165942799" duration="36225000" />
+      <workItem from="1552259339132" duration="18655000" />
+      <workItem from="1552290109219" duration="669000" />
+      <workItem from="1556619471008" duration="700000" />
+      <workItem from="1557495691646" duration="102000" />
+    </task>
+    <task id="LOCAL-00001" summary="FERTIG + JAVADOC">
+      <created>1545562817403</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545562817403</updated>
+    </task>
+    <task id="LOCAL-00002" summary="FERTIG + JAVADOC">
+      <created>1545563019250</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545563019250</updated>
+    </task>
+    <task id="LOCAL-00003" summary="FERTIG + JAVADOC">
+      <created>1545569575627</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545569575627</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <created>1549533774765</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549533774765</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <created>1549534505370</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1549534505370</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <created>1549534602014</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549534602014</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <created>1549534624250</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1549534624250</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="101657000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8657817" visible="true" weight="0.2353362" />
+      <window_info id="Structure" order="1" sideWeight="0.13421829" side_tool="true" weight="0.15164521" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="DB Browser" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49284694" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5450644" weight="0.20361446" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.59942776" weight="0.33493975" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4985694" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4549356" side_tool="true" weight="0.18313253" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4985694" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.46709585" weight="0.25301206" />
+      <window_info anchor="bottom" id="DB Execution Console" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32891566" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="15" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49856734" weight="0.24919957" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497332" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.50143266" side_tool="true" weight="0.24919957" />
+      <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="Database" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8657817" weight="0.15164521" />
+      <window_info id="Structure" order="1" sideWeight="0.13421829" side_tool="true" weight="0.15164521" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="DB Browser" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49284694" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5450644" visible="true" weight="0.18313253" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.59942776" weight="0.43253013" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4985694" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4549356" side_tool="true" weight="0.18313253" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4985694" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.46709585" weight="0.25301206" />
+      <window_info anchor="bottom" id="DB Execution Console" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49856734" weight="0.24919957" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497332" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.50143266" side_tool="true" weight="0.24919957" />
+      <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="Database" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FERTIG + JAVADOC" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MP3Player_FX/src/structure/Playlist.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/presentation/uicomponents/playercontrol/PlayerControl.java</url>
+          <line>143</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/presentation/uicomponents/graphicscontent/GraphicsContent.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/presentation/uicomponents/kidcontent/KidContent.java</url>
+          <line>178</line>
+          <properties />
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/presentation/scenes/playerview/PlayerView.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/structure/Track.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/presentation/scenes/playerview/PlayerView.java</url>
+          <line>74</line>
+          <properties class="presentation.scenes.playerview.PlayerView" method="switchCenter">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((GSTMediaPlayer)player.jfxPlayer).firedMarkerTime" custom="com.sun.media.jfxmediaimpl.platform.gstreamer.GSTMediaPlayer" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/coolContent/background.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/toppanel/TopPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sources/ColorThief.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="71" column="41" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.base.jar!/javafx/beans/property/IntegerPropertyBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/songinfo/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/timecontrol/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/application/application.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/scenes/playerview/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/bottompanel/BottomPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/scenes/playlistview/PlaylistView.java" />
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/filelist/FileList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/playlistcontent/PlaylistContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structure/PlaylistManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/songinfo/SongInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/songdetails/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/frostcontent/FrostContent.java" />
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/playercontent/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/playercontrol/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.graphics.jar!/javafx/scene/layout/BorderPane.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="e#2502#2503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.desktop/com/apple/eawt/_AppEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.graphics.jar!/javafx/scene/Scene.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="4127" selection-start-line="4127" selection-end-line="4127" />
+          <folding>
+            <element signature="e#43556#43557#0" expanded="true" />
+            <element signature="e#43610#43611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/viewcontrol/ViewControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="52" column="57" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.base.jar!/javafx/event/Event.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.graphics.jar!/javafx/scene/Node.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="3780" selection-start-line="3780" selection-end-line="3780" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.controls.jar!/javafx/scene/control/Button.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.controls.jar!/com/sun/javafx/scene/control/behavior/ButtonBehavior.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.controls.jar!/com/sun/javafx/scene/control/inputmap/InputMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.base.jar!/com/sun/javafx/event/CompositeEventHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#7706#7707#0" expanded="true" />
+            <element signature="e#7760#7761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.base.jar!/com/sun/javafx/event/EventHandlerManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.base.jar!/com/sun/javafx/event/CompositeEventDispatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.base.jar!/com/sun/javafx/event/BasicEventDispatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.base.jar!/com/sun/javafx/event/EventDispatchChainImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.base.jar!/com/sun/javafx/event/EventUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/scenes/coolview/CoolView.java" />
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/sidepanel/SidePanelLeft.java" />
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/sidepanel/FXMLDocumentController.java" />
+    <entry file="file://$PROJECT_DIR$/Electronica.m3u" />
+    <entry file="file://$PROJECT_DIR$/src/structure/Mp3Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="114" column="33" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7341#7342#0" expanded="true" />
+            <element signature="e#7376#7377#0" expanded="true" />
+            <element signature="e#9753#9754#0" expanded="true" />
+            <element signature="e#9795#9796#0" expanded="true" />
+            <element signature="e#10003#10004#0" expanded="true" />
+            <element signature="e#10030#10031#0" expanded="true" />
+            <element signature="e#10084#10085#0" expanded="true" />
+            <element signature="e#10120#10121#0" expanded="true" />
+            <element signature="e#10173#10174#0" expanded="true" />
+            <element signature="e#10208#10209#0" expanded="true" />
+            <element signature="e#10406#10407#0" expanded="true" />
+            <element signature="e#10440#10441#0" expanded="true" />
+            <element signature="e#10850#10851#0" expanded="true" />
+            <element signature="e#10894#10895#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/application/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#animateBackSwitch#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/scenes/playerview/PlayerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structure/Playlist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structure/Track.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/timecontrol/TimeControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/playercontrol/PlayerControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="128" column="50" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/playercontent/PlayerContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/coolContent/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/coolContent/CoolContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="173" column="13" selection-start-line="173" selection-start-column="13" selection-end-line="173" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structure/Views.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structure/Characters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/uicomponents/songdetails/SongDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>MP3Analyzer:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 2.7 interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MP3Analyzer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

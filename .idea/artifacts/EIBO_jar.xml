@@ -20,7 +20,6 @@
       <element id="extracted-dir" path="$PROJECT_DIR$/MP3Player_FX/src/sources/eibo_simpleminim.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/MP3Player_FX/src/sources/tritonus_aos.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/MP3Player_FX/src/sources/jl1.0.1.jar" path-in-jar="/" />
-      <element id="library" level="project" name="lib" />
     </root>
   </artifact>
 </component>

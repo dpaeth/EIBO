@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MP3Analyzer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MP3Analyzer_jar</output-path>
+    <root id="archive" name="MP3Analyzer.jar">
+      <element id="module-output" name="MP3Analyzer" />
+      <element id="library" level="project" name="tritonus_share" />
+      <element id="library" level="project" name="jsminim" />
+      <element id="library" level="project" name="ant" />
+      <element id="library" level="project" name="minim" />
+      <element id="library" level="project" name="jl1.0.1" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/sources/jl1.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/sources/jsminim.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/sources/minim.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/sources/mp3agic.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/sources/mp3spi1.9.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/sources/tritonus_aos.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/sources/tritonus_share.jar" path-in-jar="/" />
+      <element id="library" level="project" name="eibo_staticscanner" />
+      <element id="library" level="project" name="mp3spi1.9.5" />
+      <element id="library" level="project" name="mp3agic" />
+      <element id="library" level="project" name="tritonus_aos" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/javafx-sdk-11.0.2/lib/src.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.graphics.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

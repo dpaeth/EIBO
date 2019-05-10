@@ -19,13 +19,16 @@
     -fx-background-image: url("../../../assets/icons/player.png");
     -fx-background-size: 15px;
 }
-
-#graph {
-    -fx-background-image: url("../../../assets/icons/graph.png");
+#cool {
+    -fx-background-image: url("../../../assets/icons/cool.png");
     -fx-background-size: 15px;
 }
-#walk {
-    -fx-background-image: url("../../../assets/icons/walk.png");
+#frost {
+    -fx-background-image: url("../../../assets/icons/frost.png");
+    -fx-background-size: 15px;
+}
+#kid {
+    -fx-background-image: url("../../../assets/icons/kid.png");
     -fx-background-size: 15px;
 }
 

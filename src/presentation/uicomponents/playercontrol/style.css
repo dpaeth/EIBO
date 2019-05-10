@@ -43,7 +43,11 @@
 #play {
     -fx-background-image: url("../../../assets/icons/play.png");
     -fx-background-size: 15px;
+}
 
+#pause {
+    -fx-background-image: url("../../../assets/icons/pause.png");
+    -fx-background-size: 15px;
 }
 
 #stop {

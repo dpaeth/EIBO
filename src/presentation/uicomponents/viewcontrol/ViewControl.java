@@ -8,8 +8,12 @@ import presentation.application.Main;
 import structure.Views;
 
 public class ViewControl extends HBox {
-    Main application;
-    Button playlistview, playerview, graphicsview, walkview;
+    private final Main application;
+    private final Button playlistview;
+    private final Button playerview;
+    private final Button coolview;
+    Button frostview;
+    Button kidview;
 
     public ViewControl(Main application){
         this.application = application;
@@ -22,29 +26,37 @@ public class ViewControl extends HBox {
         playerview.setUserData("player");
         playerview.setId("player");
 
-        this.graphicsview = new Button();
-        graphicsview.setUserData("graph");
-        graphicsview.setId("graph");
 
-        this.walkview = new Button();
-        walkview.setUserData("walk");
-        walkview.setId("walk");
+        this.coolview = new Button();
+        coolview.setUserData("cool");
+        coolview.setId("cool");
+
+        /*
+        this.frostview = new Button();
+        frostview.setUserData("frost");
+        frostview.setId("frost");
+
+        this.kidview = new Button();
+        kidview.setUserData("kid");
+        kidview.setId("kid");
+        */
 
 
         this.setSpacing(10);
         this.setAlignment(Pos.CENTER);
-        this.getChildren().addAll(playlistview, playerview, graphicsview, walkview);
+        this.getChildren().addAll(playlistview, playerview, coolview);
         this.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
 
         initialize();
 
     }
 
-    public void initialize(){
+    private void initialize(){
         playlistview.addEventFilter(ActionEvent.ACTION, e -> application.switchView(Views.playlist));
         playerview.addEventFilter(ActionEvent.ACTION, e -> application.switchView(Views.player));
-        graphicsview.addEventFilter(ActionEvent.ACTION, e -> application.switchView(Views.graphics));
-        walkview.addEventFilter(ActionEvent.ACTION, e -> application.switchView(Views.walk));
+        coolview.addEventFilter(ActionEvent.ACTION, e -> application.switchView(Views.cool));
+        //frostview.addEventFilter(ActionEvent.ACTION, e -> application.switchView(Views.frost));
+        //kidview.addEventFilter(ActionEvent.ACTION, e -> application.switchView(Views.kid));
 
     }
 }

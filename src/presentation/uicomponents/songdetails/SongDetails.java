@@ -1,24 +1,24 @@
 package presentation.uicomponents.songdetails;
 
+import javafx.beans.binding.Bindings;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.control.Label;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import structure.Mp3Player;
-import structure.Track;
 
 /**
  * Enthält weitere Songinformationen
  */
 public class SongDetails extends VBox {
 
-    private Track song;
+    private final Mp3Player player;
 
     private final Label album, year, track, key, length, bpm;
 
     public SongDetails (Mp3Player player){
-        this.song = player.getAktTrack();
+        this.player = player;
 
         album = new Label();
         year = new Label();
@@ -27,24 +27,20 @@ public class SongDetails extends VBox {
         bpm = new Label();
         track = new Label();
 
-
-        album.setAlignment(Pos.CENTER);
-        year.setAlignment(Pos.CENTER);
-        key.setAlignment(Pos.CENTER);
-        length.setAlignment(Pos.CENTER);
-        bpm.setAlignment(Pos.CENTER);
-        track.setAlignment(Pos.CENTER);
-
+        this.album.setAlignment(Pos.CENTER);
+        this.track.setAlignment(Pos.CENTER);
+        this.length.setAlignment(Pos.CENTER);
+        this.bpm.setAlignment(Pos.CENTER);
 
         HBox col1 = new HBox();
         HBox col2 = new HBox();
 
-        col1.getChildren().addAll(album, track, year);
-        col2.getChildren().addAll(length, bpm, key);
+        col1.getChildren().addAll(album, track);
+        col2.getChildren().addAll(length, bpm);
         col1.setAlignment(Pos.CENTER);
         col2.setAlignment(Pos.CENTER);
 
-        setLabels(player);
+        init();
 
         this.setPadding(new Insets(30, 0, 30, 0));
         this.getChildren().addAll(col1, col2);
@@ -52,18 +48,16 @@ public class SongDetails extends VBox {
 
     }
 
-    /**
-     * Methode, um im nachhinein die Labels neu zu setzen
-     * @param player um Informationen abzurufen
-     */
-    public void setLabels(Mp3Player player){
-        this.song = player.getAktTrack();
 
-        album.setText("Album: "+player.getAktTrack().getAlbum());
-        year.setText("Jahr: "+song.getYear());
-        key.setText("Key: "+song.getKey());
-        length.setText("Länge: "+(player.getAktSongLength())/1000+"s");
-        bpm.setText("BPM: "+song.getBpm());
-        track.setText("TrackNr: "+song.getTrack());
+    private void init(){
+        album.textProperty().bind(Bindings.format("Albumname: %s", player.getAlbum()));
+        year.textProperty().bind(player.getYear());
+        key.textProperty().bind(player.getKey());
+        length.textProperty().bind(Bindings.format("Genre: %s", player.getGenre()));
+        bpm.textProperty().bind(Bindings.format("BPM: %d", player.getBpm()));
+        track.textProperty().bind(Bindings.format("TrackNr: %s",player.getTrack()));
+
     }
+
+
 }

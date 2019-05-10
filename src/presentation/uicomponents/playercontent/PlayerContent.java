@@ -15,14 +15,13 @@ import structure.Mp3Player;
 public class PlayerContent extends VBox {
     private final Cover cover;
     private final SongInfo songinfo;
-    private final SongDetails songdetails;
     private final Mp3Player player;
 
     public PlayerContent(Mp3Player player){
         this.player = player;
         this.cover = new Cover(player.getAktTrack());
         this.songinfo = new SongInfo(player);
-        this.songdetails = new SongDetails(player);
+        SongDetails songdetails = new SongDetails(player);
 
         TimeControl timecontrol = new TimeControl(player);
 
@@ -44,7 +43,7 @@ public class PlayerContent extends VBox {
          */
         player.aktSongNameProperty().addListener((observable, oldValue, newValue) -> {
             songinfo.setLabels(player);
-            songdetails.setLabels(player);
+            //songdetails.setLabels(player);
 
             Image newCover = player.getAktTrack().getCover();
 
